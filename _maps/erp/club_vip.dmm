@@ -1,0 +1,506 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/space/basic,
+/area/space/nearstation)
+"b" = (
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"c" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"d" = (
+/turf/closed/wall/material{
+	color = "#442255"
+	},
+/area/centcom/interlink)
+"g" = (
+/obj/structure/chair/sofa/middle{
+	dir = 4
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"j" = (
+/obj/structure/curtain/bounty/start_closed{
+	color = "#330066"
+	},
+/turf/open/floor/carpet/neon/simple/pink,
+/area/centcom/interlink)
+"l" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"m" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"p" = (
+/obj/structure/window/plasma/fulltile,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"s" = (
+/obj/structure/railing,
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"t" = (
+/obj/structure/chair/sofa/left{
+	dir = 8
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"w" = (
+/obj/structure/table/reinforced/plasmarglass,
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"x" = (
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"y" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"z" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"A" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/condom_pack,
+/obj/item/condom_pack{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/condom_pack{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"B" = (
+/obj/structure/bed/bdsm_bed,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"C" = (
+/obj/structure/chair/sofa/middle{
+	dir = 8
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"G" = (
+/obj/structure/chair/sofa/left{
+	dir = 4
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"H" = (
+/obj/structure/chair/x_stand,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"I" = (
+/obj/machinery/vending/dorms{
+	onstation = 0
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"J" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
+"M" = (
+/obj/structure/stairs/east,
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"N" = (
+/turf/open/openspace,
+/area/centcom/interlink)
+"R" = (
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"S" = (
+/turf/open/floor/carpet/neon/simple/pink,
+/area/centcom/interlink)
+"T" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/structure/stripper_pole,
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"U" = (
+/obj/structure/chair/milking_machine,
+/turf/open/floor/glass,
+/area/centcom/interlink)
+"W" = (
+/obj/structure/stairs/material,
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"Y" = (
+/obj/structure/chair/sofa/right{
+	dir = 8
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	light_color = "#b08dc2";
+	color = "#b08dc2"
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+"Z" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/item/reagent_containers/cup/glass/bottle/champagne,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled/pina_colada{
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled/pina_colada{
+	pixel_x = 5
+	},
+/turf/open/floor/carpet/neon/simple/blue/nodots,
+/area/centcom/interlink)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+d
+d
+d
+d
+d
+d
+d
+d
+d
+a
+"}
+(3,1,1) = {"
+a
+a
+d
+S
+S
+S
+S
+S
+S
+S
+d
+a
+"}
+(4,1,1) = {"
+a
+a
+d
+j
+j
+j
+j
+j
+j
+j
+d
+a
+"}
+(5,1,1) = {"
+a
+a
+d
+w
+y
+R
+R
+R
+R
+l
+d
+a
+"}
+(6,1,1) = {"
+a
+a
+d
+T
+w
+R
+G
+g
+m
+R
+d
+a
+"}
+(7,1,1) = {"
+a
+a
+d
+w
+y
+R
+Z
+Z
+Z
+M
+d
+a
+"}
+(8,1,1) = {"
+a
+a
+d
+w
+W
+R
+Y
+C
+t
+d
+d
+a
+"}
+(9,1,1) = {"
+a
+a
+d
+d
+d
+d
+d
+d
+d
+d
+d
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+
+(1,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,2) = {"
+a
+a
+d
+d
+d
+d
+d
+d
+d
+d
+d
+a
+"}
+(4,1,2) = {"
+a
+a
+d
+x
+x
+x
+x
+x
+x
+x
+d
+a
+"}
+(5,1,2) = {"
+a
+a
+d
+d
+d
+d
+d
+d
+d
+d
+d
+a
+"}
+(6,1,2) = {"
+a
+a
+d
+H
+x
+I
+b
+p
+c
+z
+d
+a
+"}
+(7,1,2) = {"
+a
+a
+d
+U
+x
+x
+x
+x
+s
+N
+d
+a
+"}
+(8,1,2) = {"
+a
+a
+d
+A
+x
+B
+x
+p
+x
+x
+d
+a
+"}
+(9,1,2) = {"
+a
+a
+d
+d
+d
+d
+d
+d
+d
+d
+d
+a
+"}
+(10,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+J
+a
+a
+a
+"}
