@@ -20,14 +20,18 @@
 	. = ..()
 	. += span_purple("[src] can be assembled by using <b>Ctrl+Shift+Click</b> while [src] is on the floor.")
 
-/obj/item/construction_kit/click_ctrl_shift(mob/user)
+/obj/item/construction_kit/CtrlShiftClick(mob/user)
+	. = ..()
+	if(. == FALSE)
+		return FALSE
+
 	if((item_flags & IN_INVENTORY) || (item_flags & IN_STORAGE))
-		return
+		return FALSE
 
 	to_chat(user, span_notice("You begin to assemble [src]..."))
 	if(!do_after(user, construction_time, src))
 		to_chat(user, span_warning("You fail to assemble [src]!"))
-		return
+		return FALSE
 
 	var/obj/structure/chair/final_structure = new resulting_structure (get_turf(user))
 	if(current_color && istype(final_structure, /obj/structure/chair/milking_machine))
@@ -45,6 +49,7 @@
 
 	qdel(src)
 	to_chat(user, span_notice("You assemble [src]."))
+	return TRUE
 
 // MILKER
 
@@ -99,10 +104,10 @@
 	. += span_purple("[src]'s color can be customized with <b>Ctrl+Click</b>.")
 
 //to change model
-/obj/item/construction_kit/bdsm/shibari/item_ctrl_click(mob/user)
+/obj/item/construction_kit/bdsm/shibari/CtrlClick(mob/user)
 	. = ..()
 	if(. == FALSE)
-		return CLICK_ACTION_BLOCKING
+		return FALSE
 
 	var/list/allowed_configs = list()
 	allowed_configs += "[greyscale_config]"
@@ -114,4 +119,4 @@
 	)
 	menu.ui_interact(usr)
 	to_chat(user, span_notice("You switch the frame's plastic fittings color."))
-	return CLICK_ACTION_SUCCESS
+	return TRUE

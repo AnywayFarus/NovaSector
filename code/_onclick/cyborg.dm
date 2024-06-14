@@ -103,8 +103,9 @@
 /mob/living/silicon/robot/CtrlClickOn(atom/target)
 	target.BorgCtrlClick(src)
 
+
 /atom/proc/BorgCtrlShiftClick(mob/living/silicon/robot/user) //forward to human click if not overridden
-	user.base_click_ctrl_shift(src)
+	CtrlShiftClick(user)
 
 /obj/machinery/door/airlock/BorgCtrlShiftClick(mob/living/silicon/robot/user) // Sets/Unsets Emergency Access Override Forwards to AI code.
 	if(get_dist(src, user) <= user.interaction_range && !(user.control_disabled))
@@ -121,8 +122,9 @@
 	else
 		..()
 
+
 /atom/proc/BorgCtrlClick(mob/living/silicon/robot/user) //forward to human click if not overridden
-	user.base_click_ctrl(src)
+	CtrlClick(user)
 
 /obj/machinery/door/airlock/BorgCtrlClick(mob/living/silicon/robot/user) // Bolts doors. Forwards to AI code.
 	if(get_dist(src, user) <= user.interaction_range && !(user.control_disabled))

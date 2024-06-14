@@ -94,7 +94,7 @@
 	result = /obj/item/storage/bag/quiver
 	reqs = list(
 		/obj/item/stack/sheet/leather = 2,
-		/obj/item/weaponcrafting/silkstring = 4,
+		/obj/item/stack/sheet/sinew = 4,
 	)
 	time = 8 SECONDS
 	category = CAT_WEAPON_AMMO
@@ -108,12 +108,3 @@
 	)
 	time = 20 SECONDS
 	category = CAT_WEAPON_RANGED
-
-
-/datum/crafting_recipe/torch
-	name = "Torch"
-	reqs = list(/obj/item/grown/log = 1)
-	result = /obj/item/flashlight/flare/torch
-	category = CAT_MISC
-	non_craftable = TRUE
-	steps = list("Use any dried leaf-like plant on a towercap log! (Ambrosia, cannabis, tobacco, etc!)")

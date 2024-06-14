@@ -558,7 +558,8 @@
  * Only runs on Tramstation, otherwise rolls a different event.
  */
 /datum/round_event_control/tram_malfunction
-	weight = HIGH_EVENT_FREQ
+	max_occurrences = 2
+	weight = VERY_HIGH_EVENT_FREQ
 
 /**
  * Wisdom Cow

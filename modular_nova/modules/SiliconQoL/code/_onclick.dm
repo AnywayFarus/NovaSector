@@ -2,30 +2,30 @@
 *	AI CHANGES
 */
 
-/mob/living/silicon/ai/CtrlShiftClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/ai/CtrlShiftClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.AICtrlShiftClick(src)
 	else
-		target.AICtrlShiftClick(src)
+		A.AICtrlShiftClick(src) // End of NOVA EDIT
 
-/mob/living/silicon/ai/ShiftClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/ai/ShiftClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.AIShiftClick(src)
 	else
-		target.AIShiftClick(src)
-		target.AIExamine(target)
+		A.AIShiftClick(src)
+		A.AIExamine(A)
 
-/mob/living/silicon/ai/CtrlClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/ai/CtrlClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.AICtrlClick(src)
 	else
-		target.AICtrlClick(src)
+		A.AICtrlClick(src)
 
 /turf/ai_click_alt(mob/living/silicon/ai/user)
 	var/obj/machinery/door/airlock/airlock = locate() in src
@@ -54,29 +54,29 @@
 *	CYBORG CHANGES
 */
 
-/mob/living/silicon/robot/CtrlShiftClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/robot/CtrlShiftClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.BorgCtrlShiftClick(src)
 	else
-		target.BorgCtrlShiftClick(src)
+		A.BorgCtrlShiftClick(src)
 
-/mob/living/silicon/robot/ShiftClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/robot/ShiftClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.BorgShiftClick(src)
 	else
-		target.BorgShiftClick(src)
+		A.BorgShiftClick(src)
 
-/mob/living/silicon/robot/CtrlClickOn(atom/target)
-	if(isturf(target))
-		var/obj/machinery/door/airlock/airlock = locate() in target
+/mob/living/silicon/robot/CtrlClickOn(atom/A)
+	if(isturf(A))
+		var/obj/machinery/door/airlock/airlock = locate() in A
 		if(airlock)
 			airlock.BorgCtrlClick(src)
 	else
-		target.BorgCtrlClick(src)
+		A.BorgCtrlClick(src) // End of NOVA EDIT
 
 /turf/borg_click_alt(mob/living/silicon/robot/user)
 	var/obj/machinery/door/airlock/airlock = locate() in src

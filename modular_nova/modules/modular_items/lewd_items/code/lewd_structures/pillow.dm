@@ -363,7 +363,7 @@
 		return ..()
 
 //to prevent creating metal chair from pillow
-/obj/structure/chair/pillow_small/mouse_drop_dragged(atom/over, mob/user, src_location, over_location, params)
+/obj/structure/chair/pillow_small/MouseDrop(over_object, src_location, over_location)
 	return
 
 /*

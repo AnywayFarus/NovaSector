@@ -68,24 +68,13 @@
  * * user - The user of the pushbroom
  * * A - The atom which is located at the location to push atoms from
  */
-/obj/item/pushbroom/proc/sweep(mob/user, atom/atom)
+/obj/item/pushbroom/proc/sweep(mob/user, atom/A)
 	SIGNAL_HANDLER
 
-	do_sweep(src, user, atom, user.dir)
-
-/**
-* Sweep objects in the direction we're facing towards our direction
-* Arguments
-* * broomer - The object being used for brooming
-* * user - The person who is brooming
-* * target - The object or tile that's target of a broom click or being moved into
-* * sweep_dir - The directions in which we sweep objects
-*/
-/proc/do_sweep(obj/broomer, mob/user, atom/target, sweep_dir)
-	var/turf/current_item_loc = isturf(target) ? target : target.loc
+	var/turf/current_item_loc = isturf(A) ? A : A.loc
 	if (!isturf(current_item_loc))
 		return
-	var/turf/new_item_loc = get_step(current_item_loc, sweep_dir)
+	var/turf/new_item_loc = get_step(current_item_loc, user.dir)
 
 	var/list/items_to_sweep = list()
 	var/i = 1
@@ -97,15 +86,16 @@
 		if(i > BROOM_PUSH_LIMIT)
 			break
 
-	SEND_SIGNAL(new_item_loc, COMSIG_TURF_RECEIVE_SWEEPED_ITEMS, broomer, user, items_to_sweep)
+	SEND_SIGNAL(new_item_loc, COMSIG_TURF_RECEIVE_SWEEPED_ITEMS, src, user, items_to_sweep)
 
 	if(!length(items_to_sweep))
 		return
 
 	for (var/obj/item/garbage in items_to_sweep)
-		garbage.Move(new_item_loc, sweep_dir)
+		garbage.Move(new_item_loc, user.dir)
 
-	playsound(current_item_loc, 'sound/weapons/thudswoosh.ogg', 30, TRUE, -1)
+	playsound(loc, 'sound/weapons/thudswoosh.ogg', 30, TRUE, -1)
+
 
 /obj/item/pushbroom/cyborg
 	name = "cyborg push broom"

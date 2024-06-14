@@ -112,7 +112,6 @@
 	..()
 
 /obj/structure/lattice/catwalk/atom_deconstruct(disassembled = TRUE)
-	..()
 	var/turf/T = loc
 	for(var/obj/structure/cable/C in T)
 		C.deconstruct()

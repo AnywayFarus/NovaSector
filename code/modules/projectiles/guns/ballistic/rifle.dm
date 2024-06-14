@@ -173,8 +173,7 @@
 /obj/item/gun/ballistic/rifle/rebarxbow
 	name = "Heated Rebar Crossbow"
 	desc = "Made from an inducer, iron rods, and some wire, this crossbow fires sharpened iron rods, made from the plentiful iron rods found stationwide. \
-		   Additionally, can fire specialty ammo made from the materials in the atmos crystalizer - zaukerite, metallic hydrogen, and healium crytals all work. \
-		   Very slow to reload - you can craft the crossbow with a crowbar to try loosen the crossbar, but risks a misfire, or worse..."
+			Only holds one rod in the magazine - you can craft the crossbow with a crowbar to try and force a second rod in, but risks a misfire, or worse..."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "rebarxbow"
 	inhand_icon_state = "rebarxbow"
@@ -195,7 +194,7 @@
 	weapon_weight = WEAPON_HEAVY
 	initial_caliber = CALIBER_REBAR
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/rebarxbow/normal
-	fire_sound = 'sound/items/xbow_lock.ogg'
+	fire_sound = 'sound/items/syringeproj.ogg'
 	can_be_sawn_off = FALSE
 	tac_reloads = FALSE
 	var/draw_time = 3 SECONDS
@@ -235,22 +234,24 @@
 
 /obj/item/gun/ballistic/rifle/rebarxbow/forced
 	name = "Stressed Rebar Crossbow"
-	desc = "Some idiot decided that they would risk shooting themselves in the face if it meant they could have a draw this crossbow a bit faster. Hopefully, it was worth it."
+	desc = "Some idiot decided that they would risk shooting themselves in the face if it meant they could have a bit more ammo in this crossbow. Hopefully, it was worth it."
 	// Feel free to add a recipe to allow you to change it back if you would like, I just wasn't sure if you could have two recipes for the same thing.
 	can_misfire = TRUE
-	draw_time = 1.5
 	misfire_probability = 25
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/rebarxbow/force
 
 /obj/item/gun/ballistic/rifle/rebarxbow/syndie
 	name = "Syndicate Rebar Crossbow"
 	desc = "The syndicate liked the bootleg rebar crossbow NT engineers made, so they showed what it could be if properly developed. \
-			Holds three shots without a chance of exploding, and features a built in scope. Compatable with all known crossbow ammunition."
+			Holds three shots without a chance of exploding, and features a built in scope. Normally uses special syndicate jagged iron bars, but can be wrenched to shoot inferior normal ones."
 	icon_state = "rebarxbowsyndie"
 	inhand_icon_state = "rebarxbowsyndie"
 	worn_icon_state = "rebarxbowsyndie"
 	w_class = WEIGHT_CLASS_NORMAL
-	initial_caliber = CALIBER_REBAR
+	can_modify_ammo = TRUE
+	initial_caliber = CALIBER_REBAR_SYNDIE
+	alternative_caliber = CALIBER_REBAR_SYNDIE_NORMAL
+	alternative_ammo_misfires = FALSE
 	draw_time = 1
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/rebarxbow/syndie
 

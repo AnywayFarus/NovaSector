@@ -15,21 +15,26 @@
 	icon_state = "bdsm_bed_kit"
 	w_class = WEIGHT_CLASS_HUGE
 
-/obj/item/bdsm_bed_kit/click_ctrl_shift(mob/user)
+/obj/item/bdsm_bed_kit/CtrlShiftClick(mob/user)
+	. = ..()
+	if(. == FALSE)
+		return FALSE
+
 	add_fingerprint(user)
 	if((item_flags & IN_INVENTORY) || (item_flags & IN_STORAGE))
-		return
+		return FALSE
 
 	to_chat(user, span_notice("You fasten the frame to the floor and begin to inflate the latex pillows..."))
 	if(!do_after(user, 8 SECONDS, src))
 		to_chat(user, span_warning("You fail to assemble [src]."))
-		return
+		return FALSE
 
 	to_chat(user, span_notice("You assemble [src]."))
 	var/obj/structure/bed/bdsm_bed/assembled_bed = new
 	assembled_bed.forceMove(loc)
 	qdel(src)
 
+	return TRUE
 
 /obj/item/bdsm_bed_kit/examine(mob/user)
 	. = ..()
@@ -49,18 +54,23 @@
 	//Set them back down to the normal lying position
 	affected_mob.pixel_y = affected_mob.base_pixel_y + affected_mob.body_position_pixel_y_offset
 
-/obj/structure/bed/bdsm_bed/click_ctrl_shift(mob/user)
+/obj/structure/bed/bdsm_bed/CtrlShiftClick(mob/user)
+	. = ..()
+	if(. == FALSE)
+		return FALSE
+
 	add_fingerprint(user)
 	to_chat(user, span_notice("You begin unfastening the frame of [src] and deflating the latex pillows..."))
 	if(!do_after(user, 8 SECONDS, src))
 		to_chat(user, span_warning("You fail to disassemble [src]."))
-		return
+		return FALSE
 
 	to_chat(user, span_notice("You disassemble [src]."))
 	var/obj/item/construction_kit/bdsm/bed/created_kit = new
 	created_kit.forceMove(loc)
 	qdel(src)
 
+	return TRUE
 
 /obj/structure/bed/bdsm_bed/Destroy()
 	unbuckle_all_mobs(TRUE)
@@ -278,16 +288,21 @@
 *	X-STAND CONSTRUCTION KIT
 */
 
-/obj/structure/chair/x_stand/click_ctrl_shift(mob/user)
+/obj/structure/chair/x_stand/CtrlShiftClick(mob/user)
+	. = ..()
+	if(. == FALSE)
+		return FALSE
+
 	add_fingerprint(user)
 	to_chat(user, span_notice("You begin unfastening the frame of [src]..."))
 	if(!do_after(user, 8 SECONDS, src))
-		return
+		return FALSE
 
 	to_chat(user, span_notice("You disassemble [src]."))
 	new /obj/item/construction_kit/bdsm/x_stand(loc)
 	unbuckle_all_mobs()
 	qdel(src)
+	return TRUE
 
 /obj/structure/chair/x_stand/examine(mob/user)
 	. = ..()

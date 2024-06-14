@@ -155,6 +155,8 @@
 	else if(is_important)
 		for(var/mob/viewer as anything in viewers(user))
 			to_chat(viewer, "<span class='emote'><b>[user]</b> [msg]</span>")
+			if(viewer != user)
+				playsound(viewer, 'modular_nova/master_files/sound/effects/save.ogg', 50)
 			if(user.runechat_prefs_check(viewer, EMOTE_MESSAGE))
 				viewer.create_chat_message(
 					speaker = user,

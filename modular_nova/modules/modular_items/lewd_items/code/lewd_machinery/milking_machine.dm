@@ -17,8 +17,6 @@
 	max_buckled_mobs = 1
 	item_chair = null
 	max_integrity = 75
-	custom_materials = null
-	/// For the color variations
 	var/static/list/milkingmachine_designs
 
 /*
@@ -409,14 +407,19 @@
 	current_mob.adjust_pleasure(pleasure_amounts[current_mode] * seconds_per_tick)
 	current_mob.adjust_pain(pain_amounts[current_mode] * seconds_per_tick)
 
-/obj/structure/chair/milking_machine/click_ctrl_shift(mob/user)
+/obj/structure/chair/milking_machine/CtrlShiftClick(mob/user)
+	. = ..()
+	if(. == FALSE)
+		return FALSE
+
 	to_chat(user, span_notice("You begin to disassemble [src]..."))
 	if(!do_after(user, 8 SECONDS, src))
 		to_chat(user, span_warning("You fail to disassemble [src]!"))
-		return
+		return FALSE
 
 	deconstruct(TRUE)
 	to_chat(user, span_notice("You disassemble [src]."))
+	return TRUE
 
 // Machine deconstruction process handler
 /obj/structure/chair/milking_machine/atom_deconstruct(disassembled)

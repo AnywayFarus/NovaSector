@@ -44,7 +44,6 @@
 	multi_tile = TRUE
 	glass = TRUE
 	nomineral = TRUE
-	material_amt = 8
 
 /obj/structure/door_assembly/Initialize(mapload)
 	. = ..()

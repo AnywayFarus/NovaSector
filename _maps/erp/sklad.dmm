@@ -1,0 +1,1370 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aZ" = (
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"bs" = (
+/obj/structure/decorative/shelf/alcohol_small,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"bF" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"bW" = (
+/obj/machinery/camera/autoname/directional/south,
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"ci" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"cA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"cR" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"cZ" = (
+/obj/structure/decorative/shelf/soda,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"ec" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/delivery/red,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/centcom/holding)
+"eR" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"fp" = (
+/obj/structure/closet/crate/freezer/food,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"gI" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"hB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron,
+/area/centcom/holding)
+"hP" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink/dorm_rooms)
+"if" = (
+/turf/open/floor/iron,
+/area/centcom/holding)
+"ip" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"jN" = (
+/obj/item/clothing/sextoy/dildo,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"jR" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"jY" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/holding)
+"kL" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink/dorm_rooms)
+"ly" = (
+/obj/machinery/door/airlock/diamond,
+/obj/effect/mapping_helpers/airlock/access/all/security/hos,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/centcom/holding/cafe)
+"lz" = (
+/obj/structure/closet/crate/rcd,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"lQ" = (
+/obj/structure/decorative/shelf/alcohol_assortment,
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"of" = (
+/obj/structure/decorative/shelf/alcohol,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"os" = (
+/obj/structure/fake_stairs/directional/south,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"ou" = (
+/obj/structure/closet/crate/secure,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"oy" = (
+/obj/structure/decorative/shelf/crates1,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"oG" = (
+/obj/structure/closet/crate/large,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"qh" = (
+/obj/effect/decal/cleanable/food/egg_smudge,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"ql" = (
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"rE" = (
+/obj/structure/decorative/shelf,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"rG" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/holding)
+"rH" = (
+/turf/open/openspace,
+/area/space/nearstation)
+"sP" = (
+/obj/structure/shipping_container/donk_co,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"sZ" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"tB" = (
+/obj/machinery/camera/autoname/directional/west,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron,
+/area/centcom/holding)
+"tI" = (
+/obj/effect/decal/cleanable/glass,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"tS" = (
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"un" = (
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"uJ" = (
+/obj/structure/closet/crate/mod,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"vf" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron,
+/area/centcom/holding)
+"vS" = (
+/obj/structure/shipping_container/conarex,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"wM" = (
+/obj/structure/shipping_container/cybersun,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"wP" = (
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"xR" = (
+/obj/structure/safe/vault,
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"yJ" = (
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"zi" = (
+/obj/structure/closet/crate/secure/engineering,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"zU" = (
+/obj/machinery/computer/slot_machine,
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"AY" = (
+/obj/structure/closet/crate/freezer/blood,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"BI" = (
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"CB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"Dn" = (
+/obj/structure/shipping_container/interdyne,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Dv" = (
+/obj/structure/closet/crate/secure,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"DI" = (
+/turf/open/floor/iron/dark,
+/area/centcom/interlink/dorm_rooms)
+"DL" = (
+/obj/structure/decorative/shelf/alcohol_small,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"Eq" = (
+/obj/structure/decorative/shelf/crates,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"ET" = (
+/obj/structure/railing,
+/turf/open/floor/iron/dark,
+/area/centcom/interlink/dorm_rooms)
+"Fc" = (
+/obj/structure/decorative/shelf/soda_multipacks,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Fp" = (
+/obj/structure/table/wood/fancy/red,
+/obj/machinery/modular_computer/preset/command{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"FT" = (
+/obj/structure/chair/sofa/right/maroon{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Gt" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"GH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"Hn" = (
+/obj/structure/closet/crate/large/import,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"HB" = (
+/obj/structure/table/wood/fancy/red,
+/obj/effect/spawner/random/decoration/flower,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Ii" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"Io" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"IO" = (
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"IZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"JZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"LK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"Mb" = (
+/obj/structure/chair/comfy/carp{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Mi" = (
+/obj/machinery/camera/autoname/directional/east,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron,
+/area/centcom/holding)
+"Mx" = (
+/obj/structure/decorative/shelf/soda_milk,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"MC" = (
+/obj/structure/decorative/shelf,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"NF" = (
+/obj/item/clothing/sextoy/dildo,
+/turf/open/floor/iron,
+/area/centcom/holding)
+"NV" = (
+/obj/structure/chair/sofa/left/maroon{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Pk" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"Qo" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/centcom/interlink/dorm_rooms)
+"Qz" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/interlink/dorm_rooms)
+"QF" = (
+/obj/structure/fireplace{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Rw" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/open/floor/iron,
+/area/centcom/holding/cafe)
+"RL" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/interlink/dorm_rooms)
+"Tf" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/interlink)
+"Tj" = (
+/obj/structure/decorative/shelf/alcohol_small,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"TE" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/holding/cafe)
+"TK" = (
+/obj/machinery/camera/autoname/directional/south,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"UW" = (
+/obj/structure/decorative/shelf/alcohol_assortment,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Vf" = (
+/obj/structure/closet/crate/engineering,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"VW" = (
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/iron/dark,
+/area/centcom/interlink)
+"Wt" = (
+/obj/structure/closet/crate/freezer,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"WA" = (
+/obj/structure/shipping_container/deforest,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Xl" = (
+/obj/structure/shipping_container/kahraman,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Ya" = (
+/obj/structure/decorative/shelf/milkjugs,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Yh" = (
+/obj/structure/closet/crate/engineering/atmos,
+/turf/open/floor/iron/dark,
+/area/centcom/holding)
+"Zh" = (
+/obj/effect/turf_decal/delivery/red,
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
+/area/centcom/holding)
+"Zv" = (
+/obj/machinery/camera/autoname/directional/north,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/holding)
+"ZX" = (
+/turf/open/space/basic,
+/area/space/nearstation)
+
+(1,1,1) = {"
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+"}
+(2,1,1) = {"
+ZX
+ZX
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+ZX
+"}
+(3,1,1) = {"
+ZX
+ZX
+rG
+DL
+bs
+DL
+of
+vf
+Eq
+tB
+Eq
+vf
+Dn
+tB
+Vf
+rG
+NF
+NF
+rG
+ZX
+"}
+(4,1,1) = {"
+ZX
+ZX
+rG
+wP
+wP
+wP
+UW
+if
+oy
+if
+oy
+if
+aZ
+if
+Yh
+rG
+NF
+NF
+rG
+ZX
+"}
+(5,1,1) = {"
+ZX
+ZX
+rG
+bs
+bs
+wP
+of
+if
+Eq
+if
+of
+cR
+aZ
+CB
+ql
+rG
+jN
+NF
+rG
+ZX
+"}
+(6,1,1) = {"
+ZX
+ZX
+rG
+wP
+ci
+eR
+UW
+if
+oy
+if
+oy
+if
+aZ
+if
+Wt
+rG
+NF
+NF
+rG
+ZX
+"}
+(7,1,1) = {"
+ZX
+ZX
+rG
+Zv
+Dv
+uJ
+UW
+if
+Eq
+if
+Eq
+qh
+Xl
+if
+aZ
+jY
+NF
+NF
+rG
+ZX
+"}
+(8,1,1) = {"
+ZX
+ZX
+IO
+jR
+wP
+wP
+of
+if
+oy
+if
+oy
+if
+aZ
+if
+AY
+rG
+rG
+rG
+rG
+ZX
+"}
+(9,1,1) = {"
+ZX
+ZX
+IO
+Io
+lz
+zi
+UW
+vf
+Mx
+vf
+cZ
+vf
+aZ
+hB
+TK
+rG
+rG
+rG
+ZX
+ZX
+"}
+(10,1,1) = {"
+ZX
+ZX
+IO
+Ii
+wP
+wP
+CB
+if
+CB
+if
+if
+if
+if
+if
+aZ
+ec
+os
+rG
+ZX
+ZX
+"}
+(11,1,1) = {"
+ZX
+ZX
+IO
+jR
+wP
+wP
+if
+if
+if
+if
+if
+if
+if
+if
+aZ
+Zh
+os
+rG
+ZX
+ZX
+"}
+(12,1,1) = {"
+ZX
+ZX
+IO
+tI
+Dv
+ou
+UW
+vf
+Eq
+vf
+vS
+vf
+sP
+hB
+fp
+rG
+rG
+rG
+ZX
+ZX
+"}
+(13,1,1) = {"
+ZX
+ZX
+IO
+jR
+wP
+wP
+Tj
+if
+Ya
+if
+aZ
+if
+aZ
+if
+oG
+TE
+TE
+TE
+TE
+ZX
+"}
+(14,1,1) = {"
+ZX
+ZX
+rG
+Zv
+Dv
+Dv
+of
+CB
+Eq
+if
+aZ
+if
+aZ
+if
+aZ
+ly
+Pk
+tS
+TE
+ZX
+"}
+(15,1,1) = {"
+ZX
+ZX
+rG
+wP
+wP
+wP
+UW
+if
+oy
+if
+aZ
+if
+aZ
+if
+Hn
+TE
+Rw
+tS
+TE
+ZX
+"}
+(16,1,1) = {"
+ZX
+ZX
+rG
+rE
+rE
+eR
+of
+if
+Fc
+if
+wM
+if
+WA
+if
+Hn
+TE
+Rw
+bW
+TE
+ZX
+"}
+(17,1,1) = {"
+ZX
+ZX
+rG
+wP
+wP
+wP
+UW
+if
+Eq
+if
+aZ
+CB
+aZ
+CB
+Hn
+TE
+zU
+tS
+TE
+ZX
+"}
+(18,1,1) = {"
+ZX
+ZX
+rG
+MC
+rE
+MC
+UW
+Mi
+oy
+vf
+aZ
+vf
+aZ
+Mi
+Hn
+TE
+xR
+sZ
+TE
+ZX
+"}
+(19,1,1) = {"
+ZX
+ZX
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+rG
+TE
+TE
+TE
+TE
+ZX
+"}
+(20,1,1) = {"
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+"}
+
+(1,1,2) = {"
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+"}
+(2,1,2) = {"
+ZX
+rH
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Tf
+Tf
+Tf
+Tf
+Tf
+ZX
+"}
+(3,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+JZ
+BI
+BI
+BI
+BI
+BI
+hP
+Tf
+ip
+QF
+ip
+Tf
+ZX
+"}
+(4,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+Tf
+un
+FT
+NV
+Tf
+ZX
+"}
+(5,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+Tf
+un
+un
+lQ
+Tf
+ZX
+"}
+(6,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+hP
+Tf
+un
+Mb
+VW
+Tf
+ZX
+"}
+(7,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+JZ
+BI
+BI
+BI
+BI
+BI
+RL
+yJ
+ip
+Fp
+HB
+Tf
+ZX
+"}
+(8,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+Tf
+Tf
+Tf
+Tf
+Tf
+ZX
+"}
+(9,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+kL
+DI
+DI
+kL
+Qz
+ZX
+"}
+(10,1,2) = {"
+ZX
+rH
+Qz
+IZ
+LK
+LK
+LK
+Gt
+LK
+LK
+LK
+LK
+IZ
+DI
+ET
+gI
+gI
+DI
+Qz
+ZX
+"}
+(11,1,2) = {"
+ZX
+rH
+Qz
+GH
+Qo
+Qo
+Qo
+Gt
+Qo
+Qo
+Qo
+Qo
+GH
+DI
+ET
+bF
+bF
+DI
+Qz
+ZX
+"}
+(12,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+kL
+DI
+DI
+kL
+Qz
+ZX
+"}
+(13,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+DI
+Qz
+Qz
+Qz
+Qz
+ZX
+"}
+(14,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+JZ
+BI
+BI
+BI
+BI
+BI
+RL
+DI
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(15,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+hP
+DI
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(16,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+DI
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(17,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+cA
+BI
+BI
+BI
+BI
+BI
+RL
+DI
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(18,1,2) = {"
+ZX
+rH
+Qz
+BI
+BI
+BI
+BI
+JZ
+BI
+BI
+BI
+BI
+BI
+RL
+kL
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(19,1,2) = {"
+ZX
+ZX
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+Qz
+ZX
+ZX
+ZX
+ZX
+"}
+(20,1,2) = {"
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+ZX
+"}

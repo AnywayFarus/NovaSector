@@ -522,8 +522,7 @@
 		/obj/item/t_scanner,
 		/obj/item/construction/rld,
 		/obj/item/construction/rtd,
-		/obj/item/gun/ballistic/rifle/rebarxbow,
-		/obj/item/storage/bag/rebar_quiver,
+		/obj/item/gun/ballistic/rifle/rebarxbow
 	)
 	armor_type = /datum/armor/wintercoat_engineering
 	hoodtype = /obj/item/clothing/head/hooded/winterhood/engineering

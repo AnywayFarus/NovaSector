@@ -654,9 +654,6 @@
 
 /datum/config_entry/flag/auto_profile
 
-/datum/config_entry/number/profiler_interval
-	default = 300 SECONDS
-
 /datum/config_entry/number/drift_dump_threshold
 	default = 4 SECONDS
 
