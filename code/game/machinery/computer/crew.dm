@@ -131,6 +131,7 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		JOB_STATION_ENGINEER = 41,
 		JOB_ATMOSPHERIC_TECHNICIAN = 42,
 		JOB_ENGINEERING_GUARD = 43, // NOVA EDIT ADDITION
+		JOB_TELECOMMS_SPECIALIST = 44, // NOVA EDIT ADDITION
 		// 50-59: Cargo
 		JOB_QUARTERMASTER = 50,
 		JOB_SHAFT_MINER = 51,
@@ -197,7 +198,7 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 		z = T.z
 	. = list(
 		"sensors" = update_data(z),
-		"link_allowed" = HAS_AI_ACCESS(user)
+		"link_allowed" = HAS_AI_ACCESS(user),
 	)
 
 /datum/crewmonitor/proc/update_data(z)
@@ -309,7 +310,7 @@ GLOBAL_DATUM_INIT(crewmonitor, /datum/crewmonitor, new)
 
 	return results
 
-/datum/crewmonitor/ui_act(action, params)
+/datum/crewmonitor/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
 	. = ..()
 	if(.)
 		return

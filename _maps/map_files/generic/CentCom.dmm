@@ -183,17 +183,6 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/evacuation)
-"aR" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/security/wooden_tv,
-/obj/structure/secure_safe{
-	pixel_x = 32;
-	pixel_y = 24
-	},
-/obj/machinery/status_display/ai/directional/east,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/admin)
 "aS" = (
 /obj/item/kirbyplants/organic/plant22,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -207,13 +196,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/courtroom)
-"aV" = (
-/obj/structure/table/wood,
-/obj/item/clipboard,
-/obj/item/radio/headset/headset_cent,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/briefing)
 "aW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -333,6 +315,11 @@
 	desc = "This is a plaque commemorating the thunderdome and all those who have died at its pearly blast doors."
 	},
 /area/centcom/tdome/observation)
+"by" = (
+/obj/structure/table/reinforced,
+/obj/machinery/fax/admin,
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/briefing)
 "bz" = (
 /obj/item/kirbyplants/organic/plant22,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
@@ -451,6 +438,18 @@
 /obj/effect/light_emitter/thunderdome,
 /turf/open/floor/iron,
 /area/centcom/tdome/arena)
+"cb" = (
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase/secure,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/briefing)
 "cd" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
@@ -711,10 +710,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/admin)
-"de" = (
-/obj/effect/landmark/start/new_player,
-/turf/closed/indestructible/start_area,
-/area/misc/start)
 "dh" = (
 /obj/effect/turf_decal/tile/dark_blue/half/contrasted{
 	dir = 4
@@ -913,8 +908,7 @@
 /area/centcom/central_command_areas/control)
 "ec" = (
 /obj/structure/railing{
-	dir = 4;
-	layer = 4.1
+	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -1283,9 +1277,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor,
 /area/centcom/central_command_areas/evacuation/ship)
-"fX" = (
-/turf/closed/indestructible/start_area,
-/area/misc/start)
 "fZ" = (
 /obj/effect/landmark/ctf,
 /turf/open/space/basic,
@@ -1404,6 +1395,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/centcom/tdome/observation)
+"gA" = (
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase/secure,
+/obj/structure/table/wood,
+/obj/structure/noticeboard/directional/east,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/courtroom)
 "gC" = (
 /obj/machinery/door/window/brigdoor/right/directional/south{
 	name = "CentCom Stand";
@@ -1532,6 +1534,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
+"hs" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/item/clipboard,
+/obj/item/radio/headset/headset_cent,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/briefing)
 "hv" = (
 /obj/machinery/barsign/all_access/directional/south,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -1623,6 +1632,11 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/courtroom)
+"hQ" = (
+/obj/structure/table/wood,
+/obj/item/radio/intercom/syndicate,
+/turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "hT" = (
 /obj/machinery/status_display/evac/directional/east,
@@ -2079,14 +2093,12 @@
 "jy" = (
 /obj/machinery/button/door/indestructible{
 	id = "XCCQMLoaddoor";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -27;
 	pixel_y = -5
 	},
 /obj/machinery/button/door/indestructible{
 	id = "XCCQMLoaddoor2";
-	layer = 4;
 	name = "Loading Doors";
 	pixel_x = -27;
 	pixel_y = 5
@@ -2339,6 +2351,10 @@
 /obj/item/stamp/law,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
+"kM" = (
+/obj/effect/landmark/start/new_player,
+/turf/cordon,
+/area/misc/start)
 "kO" = (
 /obj/item/kirbyplants/organic/plant21,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -2400,33 +2416,12 @@
 /obj/effect/mapping_helpers/airlock/access/all/admin/general,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/control)
-"lb" = (
-/obj/structure/table/wood,
-/obj/machinery/door/window/left/directional/south,
-/obj/item/radio/intercom{
-	desc = "Talk smack through this.";
-	syndie = 1
-	},
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/courtroom)
 "lc" = (
 /obj/structure/table/wood,
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/item/gavelblock,
 /obj/item/gavelhammer,
 /obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/courtroom)
-"ld" = (
-/obj/structure/table/wood,
-/obj/item/radio/intercom{
-	desc = "Talk smack through this.";
-	syndie = 1
-	},
-/obj/machinery/door/window/brigdoor/right/directional/south{
-	name = "CentCom Stand";
-	req_access = list("cent_captain")
-	},
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "le" = (
@@ -2587,17 +2582,6 @@
 /obj/machinery/status_display/ai/directional/south,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
-"lV" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/item/radio/intercom{
-	desc = "Talk smack through this.";
-	pixel_x = -32;
-	syndie = 1
-	},
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/courtroom)
 "lW" = (
 /obj/structure/chair{
 	dir = 8
@@ -2657,14 +2641,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/courtroom)
-"mn" = (
-/obj/structure/table/wood,
-/obj/item/radio/intercom{
-	desc = "Talk smack through this.";
-	syndie = 1
-	},
-/turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "mo" = (
 /obj/structure/table/wood,
@@ -2786,7 +2762,6 @@
 /obj/machinery/recharger,
 /obj/machinery/button/door/indestructible{
 	id = "XCCsecdepartment";
-	layer = 3;
 	name = "CC Security Checkpoint Control";
 	pixel_x = 24;
 	pixel_y = 24
@@ -3040,6 +3015,15 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/prison)
+"oc" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/item/radio/intercom/syndicate{
+	pixel_x = -32
+	},
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/courtroom)
 "oe" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3236,6 +3220,20 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
+"oV" = (
+/obj/structure/table/wood,
+/obj/item/storage/briefcase/secure{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/item/storage/lockbox/medal,
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/machinery/computer/security/telescreen/research/directional/south,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
 "oW" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -3348,12 +3346,6 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/admin)
-"pA" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/briefcase/secure,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/briefing)
 "pB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -3640,16 +3632,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod/loading/ert)
-"qH" = (
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/briefcase/secure,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/courtroom)
 "qI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -4034,8 +4016,7 @@
 /area/centcom/central_command_areas/ferry)
 "sw" = (
 /obj/structure/railing{
-	dir = 8;
-	layer = 4.1
+	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -4492,6 +4473,15 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/evacuation)
+"uC" = (
+/obj/structure/table/wood,
+/obj/item/radio/intercom/syndicate,
+/obj/machinery/door/window/brigdoor/right/directional/south{
+	name = "CentCom Stand";
+	req_access = list("cent_captain")
+	},
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/courtroom)
 "uE" = (
 /obj/effect/light_emitter/thunderdome,
 /turf/closed/indestructible/fakeglass,
@@ -4900,14 +4890,12 @@
 	},
 /obj/machinery/button/door/indestructible{
 	id = "XCCcustoms1";
-	layer = 3.5;
 	name = "CC Customs 1 Control";
 	pixel_x = 8;
 	pixel_y = -24
 	},
 /obj/machinery/button/door/indestructible{
 	id = "XCCcustoms2";
-	layer = 3.5;
 	name = "CC Customs 2 Control";
 	pixel_x = -8;
 	pixel_y = -24
@@ -6440,8 +6428,7 @@
 "CT" = (
 /obj/structure/table/reinforced,
 /obj/structure/railing{
-	dir = 8;
-	layer = 4.1
+	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -6497,16 +6484,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/control)
-"De" = (
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/briefcase/secure,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/tdome/administration)
 "Dg" = (
 /obj/machinery/light/floor,
 /turf/open/floor/iron/white,
@@ -6984,30 +6961,10 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/tdome/observation)
-"Ga" = (
-/obj/structure/table/reinforced,
-/obj/item/book/manual/wiki/security_space_law,
-/obj/item/taperecorder,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/ferry)
 "Gb" = (
 /obj/effect/light_emitter/thunderdome,
 /turf/closed/indestructible/fakeglass,
 /area/centcom/tdome/observation)
-"Gc" = (
-/obj/structure/table/wood,
-/obj/item/storage/briefcase/secure{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/obj/item/storage/lockbox/medal,
-/obj/machinery/newscaster{
-	pixel_x = 32
-	},
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/admin)
 "Gf" = (
 /obj/machinery/firealarm/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -7301,18 +7258,6 @@
 /obj/structure/closet/secure_closet/quartermaster,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
-"HX" = (
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/briefcase/secure,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/briefing)
 "HY" = (
 /obj/machinery/photocopier,
 /obj/machinery/button/door/indestructible{
@@ -7344,8 +7289,7 @@
 /area/centcom/central_command_areas/control)
 "HZ" = (
 /obj/structure/railing{
-	dir = 6;
-	layer = 3.1
+	dir = 6
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -7450,6 +7394,9 @@
 /obj/machinery/light/floor,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/observation)
+"IP" = (
+/turf/cordon,
+/area/misc/start)
 "IR" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -7468,6 +7415,28 @@
 "Jb" = (
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/prison/cells)
+"Jc" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/obj/item/taperecorder,
+/obj/item/book/manual/wiki/security_space_law,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/ferry)
+"Jd" = (
+/obj/item/clipboard,
+/obj/item/folder/red,
+/obj/item/stamp/denied{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/stamp{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/structure/table/reinforced,
+/obj/item/stamp/centcom,
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/briefing)
 "Jg" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -7522,12 +7491,6 @@
 /area/centcom/tdome/administration)
 "JO" = (
 /obj/machinery/modular_computer/preset/id/centcom,
-/obj/machinery/computer/security/telescreen{
-	desc = "Used for watching the RD's goons and the AI's satellite from the safety of his office.";
-	name = "Research Monitor";
-	network = list("rd","minisat");
-	pixel_y = 28
-	},
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/admin)
 "JU" = (
@@ -7551,6 +7514,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/observation)
+"JW" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/briefcase/secure,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/briefing)
 "Kd" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/effect/turf_decal/tile/yellow/opposingcorners{
@@ -7558,17 +7527,6 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/tdome/observation)
-"Ke" = (
-/obj/item/clipboard,
-/obj/item/folder/red,
-/obj/item/stamp/denied{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/stamp,
-/obj/structure/table/reinforced,
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/briefing)
 "Kf" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Administrative Storage"
@@ -7583,6 +7541,15 @@
 /obj/effect/mapping_helpers/airlock/access/all/admin/captain,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/admin)
+"Kh" = (
+/obj/machinery/computer/station_alert{
+	dir = 8
+	},
+/obj/item/radio/intercom/syndicate{
+	pixel_x = 28
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/control)
 "Ko" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin,
@@ -7823,8 +7790,7 @@
 /area/centcom/central_command_areas/evacuation)
 "Lz" = (
 /obj/structure/railing{
-	dir = 10;
-	layer = 3.1
+	dir = 10
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -8044,16 +8010,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/centcom/central_command_areas/prison)
-"MB" = (
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/briefcase/secure,
-/obj/structure/table/wood,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/admin)
 "MC" = (
 /obj/structure/flora/grass/jungle/b,
 /obj/effect/decal/cleanable/garbage{
@@ -8613,13 +8569,13 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/clothing/mask/cigarette/cigar/cohiba{
+/obj/item/cigarette/cigar/cohiba{
 	pixel_x = 6
 	},
-/obj/item/clothing/mask/cigarette/cigar/havana{
+/obj/item/cigarette/cigar/havana{
 	pixel_x = 2
 	},
-/obj/item/clothing/mask/cigarette/cigar{
+/obj/item/cigarette/cigar{
 	pixel_x = 4.5
 	},
 /obj/machinery/status_display/evac/directional/north,
@@ -8800,13 +8756,13 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/clothing/mask/cigarette/cigar/cohiba{
+/obj/item/cigarette/cigar/cohiba{
 	pixel_x = 6
 	},
-/obj/item/clothing/mask/cigarette/cigar/havana{
+/obj/item/cigarette/cigar/havana{
 	pixel_x = 2
 	},
-/obj/item/clothing/mask/cigarette/cigar{
+/obj/item/cigarette/cigar{
 	pixel_x = 4.5
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -8834,19 +8790,6 @@
 "PW" = (
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod/loading/three)
-"PX" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/red{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/folder/blue{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/obj/item/lighter,
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/briefing)
 "PY" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -8966,8 +8909,7 @@
 "QB" = (
 /obj/structure/table/reinforced,
 /obj/structure/railing{
-	dir = 4;
-	layer = 4.1
+	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -9031,13 +8973,13 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/clothing/mask/cigarette/cigar/cohiba{
+/obj/item/cigarette/cigar/cohiba{
 	pixel_x = 6
 	},
-/obj/item/clothing/mask/cigarette/cigar/havana{
+/obj/item/cigarette/cigar/havana{
 	pixel_x = 2
 	},
-/obj/item/clothing/mask/cigarette/cigar{
+/obj/item/cigarette/cigar{
 	pixel_x = 4.5
 	},
 /obj/machinery/airalarm/directional/south,
@@ -9257,6 +9199,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/armory)
+"RO" = (
+/obj/structure/table/wood,
+/obj/machinery/door/window/left/directional/south,
+/obj/item/radio/intercom/syndicate,
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/courtroom)
 "RP" = (
 /obj/structure/bookcase/random,
 /obj/machinery/status_display/evac/directional/south,
@@ -9298,6 +9246,16 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod/loading/two)
+"Sg" = (
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase/secure,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/administration)
 "Sh" = (
 /obj/structure/table/reinforced,
 /obj/item/mod/control/pre_equipped/corporate{
@@ -9484,13 +9442,23 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/observation)
+"Tg" = (
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase/secure,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/admin)
 "Tj" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/cup/glass/bottle/whiskey{
 	pixel_y = 19;
 	pixel_x = 7
 	},
-/obj/item/clothing/mask/cigarette/cigar/havana{
+/obj/item/cigarette/cigar/havana{
 	pixel_x = -6;
 	pixel_y = 5
 	},
@@ -9620,7 +9588,7 @@
 /turf/open/floor/iron,
 /area/centcom/tdome/arena)
 "TO" = (
-/obj/machinery/keycard_auth/directional/south,
+/obj/machinery/keycard_auth/wall_mounted/directional/south,
 /obj/structure/table/reinforced,
 /obj/item/stack/package_wrap{
 	pixel_y = 11;
@@ -9707,6 +9675,17 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
+/area/centcom/central_command_areas/admin)
+"Ui" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/security/wooden_tv,
+/obj/structure/secure_safe{
+	pixel_x = 32;
+	pixel_y = 24
+	},
+/obj/machinery/status_display/ai/directional/east,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/admin)
 "Ul" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
@@ -10094,7 +10073,6 @@
 	},
 /obj/machinery/button/door/indestructible{
 	id = "XCCcustoms1";
-	layer = 3;
 	name = "CC Emergency Docks Control";
 	pixel_x = 24;
 	pixel_y = 24
@@ -10155,6 +10133,16 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/centcom/tdome/administration)
+"Wp" = (
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/storage/briefcase/secure,
+/obj/structure/table/wood,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/courtroom)
 "Ws" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/siding/yellow/corner{
@@ -10236,30 +10224,19 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/clothing/mask/cigarette/cigar/cohiba{
+/obj/item/cigarette/cigar/cohiba{
 	pixel_x = 6
 	},
-/obj/item/clothing/mask/cigarette/cigar/havana{
+/obj/item/cigarette/cigar/havana{
 	pixel_x = 2
 	},
-/obj/item/clothing/mask/cigarette/cigar{
+/obj/item/cigarette/cigar{
 	pixel_x = 4.5
 	},
 /obj/machinery/newscaster/directional/north,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
-"WP" = (
-/obj/machinery/computer/station_alert{
-	dir = 8
-	},
-/obj/item/radio/intercom{
-	desc = "Talk smack through this.";
-	pixel_x = 28;
-	syndie = 1
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/control)
 "WQ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -10396,7 +10373,7 @@
 /turf/open/floor/wood,
 /area/centcom/central_command_areas/admin)
 "Xr" = (
-/obj/machinery/keycard_auth/directional/south,
+/obj/machinery/keycard_auth/wall_mounted/directional/south,
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/machinery/button/door/indestructible{
@@ -10474,6 +10451,21 @@
 /obj/machinery/status_display/evac/directional/east,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
+"XI" = (
+/obj/structure/table/wood,
+/obj/item/clipboard,
+/obj/item/folder/red,
+/obj/item/stamp/denied{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/stamp{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/stamp/centcom,
+/turf/open/floor/iron/grimy,
+/area/centcom/central_command_areas/admin)
 "XJ" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -10510,17 +10502,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/centcom/central_command_areas/supplypod)
-"XV" = (
-/obj/structure/table/wood,
-/obj/item/clipboard,
-/obj/item/folder/red,
-/obj/item/stamp/denied{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/stamp,
-/turf/open/floor/iron/grimy,
-/area/centcom/central_command_areas/admin)
 "Ya" = (
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/armory)
@@ -10656,17 +10637,6 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/admin)
-"YR" = (
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/storage/briefcase/secure,
-/obj/structure/table/wood,
-/obj/structure/noticeboard/directional/east,
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
-/area/centcom/central_command_areas/courtroom)
 "YT" = (
 /obj/structure/table/wood,
 /obj/structure/plaque/static_plaque/thunderdome{
@@ -10943,20 +10913,20 @@
 /area/centcom/central_command_areas/supply)
 
 (1,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 gu
 aa
 aa
@@ -11200,21 +11170,21 @@ aa
 aa
 "}
 (2,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -11457,21 +11427,21 @@ LV
 aa
 "}
 (3,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -11714,21 +11684,21 @@ LV
 aa
 "}
 (4,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -11971,21 +11941,21 @@ LV
 aa
 "}
 (5,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -12228,21 +12198,21 @@ LV
 aa
 "}
 (6,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -12485,21 +12455,21 @@ LV
 aa
 "}
 (7,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -12742,21 +12712,21 @@ LV
 aa
 "}
 (8,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-de
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+kM
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -12999,21 +12969,21 @@ LV
 aa
 "}
 (9,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -13256,21 +13226,21 @@ LV
 aa
 "}
 (10,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -13513,21 +13483,21 @@ LV
 aa
 "}
 (11,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -13770,21 +13740,21 @@ LV
 aa
 "}
 (12,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -14027,21 +13997,21 @@ LV
 aa
 "}
 (13,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -14284,21 +14254,21 @@ LV
 aa
 "}
 (14,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -14541,21 +14511,21 @@ LV
 aa
 "}
 (15,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -14798,21 +14768,21 @@ LV
 aa
 "}
 (16,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -15055,21 +15025,21 @@ LV
 aa
 "}
 (17,1,1) = {"
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
-fX
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
+IP
 aa
 aa
 aa
@@ -45290,7 +45260,7 @@ aa
 aa
 aa
 oe
-Ga
+Jc
 sq
 to
 ZN
@@ -47358,10 +47328,10 @@ wv
 mD
 yL
 WN
-HX
+cb
 Bu
 tb
-aV
+hs
 ho
 gO
 aa
@@ -47598,7 +47568,7 @@ aa
 aa
 On
 oo
-MB
+Tg
 Bl
 Wl
 Qb
@@ -48129,8 +48099,8 @@ fa
 mD
 PU
 eF
-PX
-Ke
+by
+Jd
 eV
 eF
 xU
@@ -48643,7 +48613,7 @@ wB
 yr
 RH
 RH
-pA
+JW
 eE
 rB
 RH
@@ -49140,7 +49110,7 @@ vo
 fP
 On
 Zw
-XV
+XI
 hd
 To
 BT
@@ -49657,7 +49627,7 @@ yO
 To
 nk
 Gf
-Gc
+oV
 On
 JO
 Vz
@@ -50681,7 +50651,7 @@ mH
 nm
 TO
 On
-aR
+Ui
 JC
 py
 oB
@@ -55361,7 +55331,7 @@ uE
 Xn
 Sz
 Sz
-De
+Sg
 Wn
 ga
 uf
@@ -55826,7 +55796,7 @@ GC
 Mz
 io
 TU
-WP
+Kh
 Gm
 io
 eu
@@ -59678,7 +59648,7 @@ rw
 qh
 ps
 ps
-qH
+Wp
 Hv
 qz
 qy
@@ -61210,10 +61180,10 @@ pc
 qc
 rk
 kE
-lb
+RO
 rk
 rM
-mn
+hQ
 mY
 rk
 RI
@@ -61724,7 +61694,7 @@ pc
 bC
 rk
 kG
-ld
+uC
 rk
 rM
 rM
@@ -62238,10 +62208,10 @@ pc
 BU
 rk
 kE
-lb
+RO
 rk
 rM
-mn
+hQ
 mY
 rk
 RI
@@ -63011,10 +62981,10 @@ rM
 rM
 ct
 ps
-lV
+oc
 lW
 lW
-lV
+oc
 RI
 ps
 rk
@@ -63263,7 +63233,7 @@ aa
 aa
 aa
 Hv
-qH
+Wp
 xX
 QX
 pc
@@ -63275,7 +63245,7 @@ dp
 gC
 ps
 Ha
-YR
+gA
 bC
 Hv
 cg

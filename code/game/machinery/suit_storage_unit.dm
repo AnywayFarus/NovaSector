@@ -230,7 +230,7 @@
 
 /obj/machinery/suit_storage_unit/update_overlays()
 	. = ..()
-	//if things arent powered, these show anyways
+	//if things aren't powered, these show anyways
 	if(panel_open)
 		. += "[base_icon_state]_panel"
 	if(state_open)
@@ -553,7 +553,7 @@
 /obj/machinery/suit_storage_unit/process(seconds_per_tick)
 	var/list/cells_to_charge = list()
 	for(var/obj/item/charging in list(mod, suit, helmet, mask, storage))
-		var/obj/item/stock_parts/cell/cell_charging = charging.get_cell()
+		var/obj/item/stock_parts/power_store/cell_charging = charging.get_cell()
 		if(!istype(cell_charging) || cell_charging.charge == cell_charging.maxcharge)
 			continue
 
@@ -564,7 +564,7 @@
 		return
 
 	var/charge_per_item = (final_charge_rate * seconds_per_tick) / cell_count
-	for(var/obj/item/stock_parts/cell/cell as anything in cells_to_charge)
+	for(var/obj/item/stock_parts/power_store/cell as anything in cells_to_charge)
 		charge_cell(charge_per_item, cell, grid_only = TRUE)
 
 /obj/machinery/suit_storage_unit/proc/shock(mob/user, prb)
@@ -699,7 +699,7 @@
 		else
 			balloon_alert(user, "set to [choice]")
 
-	else if(!state_open && istype(weapon, /obj/item/pen))
+	else if(!state_open && IS_WRITING_UTENSIL(weapon))
 		if(locked)
 			balloon_alert(user, "unlock first!")
 			return
@@ -793,7 +793,7 @@
 */
 /obj/machinery/suit_storage_unit/default_deconstruction_screwdriver(mob/user, icon_state_open, icon_state_closed, obj/item/screwdriver)
 	if(screwdriver.tool_behaviour == TOOL_SCREWDRIVER && (uv || locked))
-		to_chat(user, span_warning("You cant open the panel while its [locked ? "locked" : "decontaminating"]"))
+		to_chat(user, span_warning("You can't open the panel while its [locked ? "locked" : "decontaminating"]"))
 		return TRUE
 	return ..()
 

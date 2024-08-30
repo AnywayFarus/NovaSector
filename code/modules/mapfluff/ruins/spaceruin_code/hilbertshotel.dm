@@ -381,7 +381,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 		to_chat(user, span_warning("Drats! Your vision is too poor to use this!"))
 		return CLICK_ACTION_BLOCKING
 
-	to_chat(user, span_notice("You peak through the door's bluespace peephole..."))
+	to_chat(user, span_notice("You peek through the door's bluespace peephole..."))
 	user.reset_perspective(parentSphere)
 	var/datum/action/peephole_cancel/PHC = new
 	user.overlay_fullscreen("remote_view", /atom/movable/screen/fullscreen/impaired, 1)
@@ -418,6 +418,10 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	has_gravity = TRUE
 	area_flags = NOTELEPORT | HIDDEN_AREA
 	static_lighting = TRUE
+	// NOVA EDIT ADDITION - GHOST HOTEL UPDATE
+	mood_bonus = 25
+	mood_message = "I am taking a well deserved rest!"
+	// NOVA EDIT END
 	/* 	NOVA EDIT REMOVAL - GHOST HOTEL UPDATE
 	ambientsounds = list('sound/ambience/servicebell.ogg')
 	NOVA EDIT END */
@@ -549,14 +553,12 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	icon_state = "hilbertsanalyzer"
 	worn_icon_state = "analyzer"
 
-/obj/item/analyzer/hilbertsanalyzer/afterattack(atom/target, mob/user, proximity)
-	. = ..()
-	if(istype(target, /obj/item/hilbertshotel))
-		. |= AFTERATTACK_PROCESSED_ITEM
-		if(!proximity)
+/obj/item/analyzer/hilbertsanalyzer/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
+	if(istype(interacting_with, /obj/item/hilbertshotel))
+		if(!Adjacent(interacting_with))
 			to_chat(user, span_warning("It's to far away to scan!"))
-			return .
-		var/obj/item/hilbertshotel/sphere = target
+			return ITEM_INTERACT_BLOCKING
+		var/obj/item/hilbertshotel/sphere = interacting_with
 		if(sphere.activeRooms.len)
 			to_chat(user, "Currently Occupied Rooms:")
 			for(var/roomnumber in sphere.activeRooms)
@@ -569,7 +571,8 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 				to_chat(user, roomnumber)
 		else
 			to_chat(user, "No vacated rooms.")
-		return .
+		return ITEM_INTERACT_SUCCESS
+	return ..()
 
 /obj/effect/landmark/transport/transport_id/hilbert
 	specific_transport_id = HILBERT_LINE_1
