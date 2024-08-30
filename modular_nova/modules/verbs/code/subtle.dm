@@ -58,6 +58,8 @@
 			ghost.show_message(subtle_message)
 
 	for(var/mob/receiver in viewers)
+		if(receiver != user)
+			playsound(receiver, 'modular_nova/master_files/sound/effects/save.ogg', 50)
 		receiver.show_message(subtle_message, alt_msg = subtle_message)
 
 	return TRUE
@@ -141,6 +143,7 @@
 		var/obj/effect/overlay/holo_pad_hologram/hologram = GLOB.hologram_impersonators[user]
 		if((get_dist(user.loc, target_mob.loc) <= subtler_range) || (hologram && get_dist(hologram.loc, target_mob.loc) <= subtler_range))
 			target_mob.show_message(subtler_message, alt_msg = subtler_message)
+			playsound(target_mob, 'modular_nova/master_files/sound/effects/save.ogg', 50)
 		else
 			to_chat(user, span_warning("Your emote was unable to be sent to your target: Too far away."))
 	else if(istype(target, /obj/effect/overlay/holo_pad_hologram))
@@ -159,6 +162,8 @@
 				ghostless |= holo.Impersonation
 
 		for(var/mob/receiver in ghostless)
+			if(receiver != user)
+				playsound(receiver, 'modular_nova/master_files/sound/effects/save.ogg', 50)
 			receiver.show_message(subtler_message, alt_msg = subtler_message)
 
 	return TRUE

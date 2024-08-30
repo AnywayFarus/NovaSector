@@ -24,6 +24,7 @@
 #_maps/RandomRuins/SpaceRuins/crashedship.dmm
 #_maps/RandomRuins/SpaceRuins/cyborg_mothership.dmm
 #_maps/RandomRuins/SpaceRuins/dangerous_research.dmm
+#_maps/RandomRuins/SpaceRuins/dangerous_research.dmm
 #_maps/RandomRuins/SpaceRuins/deepstorage.dmm
 #_maps/RandomRuins/SpaceRuins/derelict_construction.dmm
 #_maps/RandomRuins/SpaceRuins/derelict_sulaco.dmm
@@ -70,7 +71,7 @@
 #_maps/RandomRuins/SpaceRuins/shuttlerelic.dmm
 #_maps/RandomRuins/SpaceRuins/space_billboard.dmm
 #_maps/RandomRuins/SpaceRuins/space_ghost_restaurant.dmm
-_maps/RandomRuins/SpaceRuins/spacehotel.dmm
+#_maps/RandomRuins/SpaceRuins/spacehotel.dmm
 #_maps/RandomRuins/SpaceRuins/spinwardsmoothies.dmm
 #_maps/RandomRuins/SpaceRuins/the_faceoff.dmm
 #_maps/RandomRuins/SpaceRuins/the_outlet.dmm
@@ -83,6 +84,7 @@ _maps/RandomRuins/SpaceRuins/spacehotel.dmm
 #_maps/RandomRuins/SpaceRuins/waystation.dmm
 #_maps/RandomRuins/SpaceRuins/whiteshipdock.dmm
 #_maps/RandomRuins/SpaceRuins/whiteshipruin_box.dmm
+
 
 ##Custom Ruins
 #_maps/RandomRuins/SpaceRuins/nova/alientoollab.dmm
