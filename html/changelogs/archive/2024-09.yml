@@ -522,3 +522,139 @@
 2024-09-16:
   vinylspiders:
   - bugfix: SSD timers on examine have returned
+2024-09-17:
+  Archemagus:
+  - bugfix: Shuttle's door autobolting feature
+  Ghommie:
+  - bugfix: Fishing with baits works again.
+  - rscadd: Automated announcement systems now announce researched nodes to their
+      respective departments. You can stop this by either disabling the announcement
+      systems or by using a multitool on the circuitboard of the console you're researching
+      nodes from.
+  - bugfix: Fixed the offsets of the chimp shotgun when held.
+  - admin: godmode is now a datum trait instead of a bitflag. This means the process
+      for toggling it is a little different now.
+  - bugfix: Fixed aquarium props not showing up inside the aquarium.
+  - bugfix: Fixed morbid mobs (coroners) not enjoying room beauty and aquariums in
+      their own weird ways.
+  - rscadd: You an now release fish after catching it for a positive moodlet (or to
+      repopulate certain fishing spot with rare fish).
+  - bugfix: Water turfs from the crashed site ruin on lavaland are no longer named
+      "lavaland atmos".
+  - rscadd: Whole, unprocessed fish is now edible. However it's pretty much reccomended
+      to grill or fry it for over 30 spess seconds before attempting to eat it.
+  - bugfix: germ-covered, dirty food no longer tries to infect you through contact.
+  - bugfix: Fixed the force of swordfish and armored pikes
+  - rscadd: Gave the detective an ID that can flipped to look like an assistant ID.
+  - balance: The detective camera is now silent and doesn't flash.
+  - bugfix: Bitrunning fishing spots no longer deplete limited loot from outside the
+      virtual reality.
+  - bugfix: The treasure chest from the beach is no longer anchored to the floor.
+  - bugfix: You once again need to right click to use tackling gloves.
+  - qol: Add a screentip to shields and pillows' right-click function (shoving people).
+  Jewelry-x:
+  - spellcheck: fixed typos on heretic's "Lionhunter's Rifle"
+  Melbert:
+  - qol: You can dump bodybags (with people inside them) down disposals
+  MelokGleb:
+  - spellcheck: busser is now Busser (with big B)
+  MrSunabouzu:
+  - rscadd: Snowglobe Solars, Drone Bay, and Stacking Machine
+  - qol: Snowglobe Raptor Ranch closer to mining
+  - balance: Replaced less used rooms for new ones in snowglobe
+  Pickle-Coding:
+  - bugfix: Fixes high energy supermatter zaps arcing through an unusually high amount
+      of objects and ignoring grounding rods.
+  PowerfulBacon:
+  - rscadd: Implements the ability to lint for required neighbors in maplint.
+  - rscadd: Adds conditional linting rules in maplint, allowing a lint to apply only
+      if certain conditions are met (Variable is/isn't set, Variable is/isn't a value,
+      Variable matches a regex).
+  SmArtKar:
+  - refactor: Refactored how examines display item properties. A lot of them are now
+      displayed as tags that you can hover over to receive details about, like item
+      size, resistances and materials an object is made of.
+  - qol: Protection classes now better elaborate on thermal resistances of items,
+      displaying the exact temperatures they can protect you from.
+  - bugfix: You can now craft things on tiles with windoors and railings on them.
+  - bugfix: Your UI no longer breaks after being kidnapped by a contractor
+  - qol: Being kidnapped by a contractor no longer dumps all of your boxes and belts
+  - bugfix: Dismantling walls with plasma cutters works once more
+  - bugfix: Fixed veteran advisor not spawning on security officer landmarks
+  - qol: Added a small vertical margin to ID card image in new examine panel to ensure
+      that it doesn't collide with text
+  Time-Green:
+  - bugfix: Fixes plasmamen having all external organ species preferences
+  vinylspiders:
+  - bugfix: smartfridges and drying racks will now display their examine text information
+      mutlilined
+  - bugfix: fixed crafted donuts not getting any sprinkles, ever
+  - bugfix: fixes being able to use chuunibyou shouts while mute
+2024-09-18:
+  vinylspiders:
+  - bugfix: fixed primitive 'vendors' (the ash clothing box and icecat wardrobe) costing
+      money when they should be free
+  zeroisthebiggay:
+  - rscadd: Ask your local bartender for a glass of Cringe Weaver!
+2024-09-19:
+  Bisar:
+  - bugfix: Xenomorph restrictions on items they can pick up have had their determining
+      logic made more _robust_.
+  - code_imp: The itempicky component (restricts what can be picked up via a whitelist)
+      can now, optionally, have a callback fed to it to determine cases of bypassing
+      that whitelist.
+  Bumtickley00:
+  - bugfix: Penlights can once again be used to look at people's eyes and mouth.
+  DaCoolBoss:
+  - spellcheck: Fixed typos in lead's description.
+  - spellcheck: Mice now love the taste of insulated electrical cables, not uninsulated
+      ones.
+  Ghommie:
+  - bugfix: examining fishing spots while wielding a rod (with sufficient skill) now
+      works.
+  - rscadd: You can now link fishing portal generators to other fishing spots with
+      a multitool. The number of fishing spots that can be linked at once and whether
+      the link can be activated from different z levels depends on the tier of the
+      stock parts it's built with.
+  - rscadd: You can pet fish while holding them. Be wary of petting aggressive fish.
+  - rscadd: Your current clothes and what chair you sit on can now influence the difficulty
+      of fishing minigames. Having a bare minimum of fishing skill will let you distinguish
+      which objects can help and which won't, so keep an eye out. Holding fishing
+      toolboxes, fish analyzers or fish catalogs can also help.
+  Goat:
+  - bugfix: lockers and crates with no access requirements can now be renamed by anyone
+  Jewelry-x:
+  - bugfix: fixed a bug that allows autogrow to be turned on with no power.
+  - bugfix: fixes description for blob reagents
+  - qol: made blob antag panel easier to read and more organized
+  - spellcheck: fixed a few typos in the blob panel
+  Kocma-san:
+  - bugfix: fixed disposal pipes on metastation, deltastation and icebox
+  SmArtKar:
+  - bugfix: Vore victims no longer get digested instantly when you evolve
+  - bugfix: Changing ID card's trim now properly adjusts linked bank account's job,
+      allowing you to receive bounties for your new job
+  - bugfix: Collars can no longer be used to null a pet's name
+  - bugfix: Fixed petrification not removing NOBLOOD trait after ending
+  - bugfix: Snow bears are no longer impervious to all sources of damage
+  - bugfix: Cameras, living floors and ghost of poly no longer can be pushed around
+  Stalkeros:
+  - rscadd: People who breathe air get two times more cash than before.
+  SyncIt21:
+  - bugfix: borgs can perform organ manipulation surgery again
+  deathrobotpunch:
+  - rscadd: Added new fishing category to games vendor
+  vinylspiders:
+  - bugfix: snailpeople will once again leave water trails instead of space lube
+  - bugfix: using a bluespace anomaly core on snail shells now works again
+2024-09-20:
+  vinylspiders:
+  - bugfix: bluespace-upgraded snail shells will no longer eat additional inserted
+      bluespace anomaly cores
+  - qol: the bluespace upgrading process no longer dumps all your snail shell contents
+      on the floor
+2024-09-21:
+  OrbisAnima:
+  - rscadd: Ported 6 PKA Variants by Salted Zen, available at the Mining Vendor. The
+      Railgun and Grenade launcher variants cant be modified and only be shoot in
+      mining areas or in non station Z Levels. The Pistol fits in Holsters.
