@@ -1,0 +1,679 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bH" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/cup/glass/trophy/bronze_cup{
+	pixel_x = 1;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/cup/glass/trophy/bronze_cup{
+	pixel_x = 8;
+	pixel_y = 19
+	},
+/obj/item/reagent_containers/cup/glass/trophy/bronze_cup{
+	pixel_x = -6;
+	pixel_y = 19
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"bO" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/cup/glass/trophy/gold_cup{
+	pixel_x = 0;
+	pixel_y = 16
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"dp" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"du" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/admin)
+"eW" = (
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"ff" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"fR" = (
+/obj/structure/bed/bdsm_bed,
+/turf/open/floor/iron/white/side{
+	dir = 8
+	},
+/area/centcom/central_command_areas/control)
+"gh" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/chapel{
+	dir = 10
+	},
+/area/centcom/central_command_areas/briefing)
+"ht" = (
+/obj/machinery/computer/rdconsole,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"iy" = (
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/centcom/central_command_areas/control)
+"je" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/control)
+"jF" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/pool,
+/area/centcom/central_command_areas/armory)
+"kb" = (
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/control)
+"kM" = (
+/turf/open/floor/iron/pool,
+/area/centcom/central_command_areas/armory)
+"lY" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas/armory)
+"me" = (
+/obj/structure/fake_stairs/directional/south,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"na" = (
+/obj/structure/sink/kitchen/directional/west,
+/turf/open/floor/iron/white/corner{
+	dir = 1
+	},
+/area/centcom/central_command_areas/control)
+"nJ" = (
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/centcom/central_command_areas/briefing)
+"nT" = (
+/obj/structure/table/reinforced,
+/obj/item/pen/fountain,
+/obj/item/paperwork/ancient,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"pp" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/chapel,
+/area/centcom/central_command_areas/briefing)
+"py" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas/admin/storage)
+"qF" = (
+/obj/structure/filingcabinet/security{
+	pixel_x = -9;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = 2;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = 13;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"sl" = (
+/obj/structure/filingcabinet/security,
+/obj/structure/filingcabinet/security{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/structure/filingcabinet/security{
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"tB" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/vaporwave,
+/area/centcom/central_command_areas/briefing)
+"tP" = (
+/turf/open/floor/iron/white/corner{
+	dir = 4
+	},
+/area/centcom/central_command_areas/control)
+"vl" = (
+/obj/machinery/scanner_gate/preset_guns,
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"xl" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas/admin)
+"xA" = (
+/obj/structure/fake_stairs/directional/south,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"yG" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/admin/storage)
+"ze" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/clothing/sextoy/buttplug{
+	icon_state = "buttplug_teal_big"
+	},
+/obj/item/clothing/sextoy/buttplug{
+	icon_state = "buttplug_tail_small"
+	},
+/obj/item/clothing/sextoy/buttplug{
+	icon_state = "buttplug_yellow_medium"
+	},
+/obj/item/clothing/sextoy/buttplug{
+	icon_state = "buttplug_metal_medium"
+	},
+/turf/open/floor/iron/white/corner,
+/area/centcom/central_command_areas/control)
+"Ao" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/clothing/sextoy/dildo,
+/obj/item/clothing/sextoy/dildo,
+/obj/item/clothing/sextoy/dildo,
+/turf/open/floor/iron/white/corner{
+	dir = 8
+	},
+/area/centcom/central_command_areas/control)
+"Az" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/cup/glass/trophy/silver_cup{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/cup/glass/trophy/silver_cup{
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"AC" = (
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"AP" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/briefing)
+"BF" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"BG" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"DI" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	color = "#be1e1e"
+	},
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/control)
+"Ep" = (
+/obj/machinery/vending/dorms{
+	onstation = 0
+	},
+/turf/open/floor/iron/white/side{
+	dir = 4
+	},
+/area/centcom/central_command_areas/control)
+"EO" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"GK" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/admin/storage)
+"GL" = (
+/turf/open/floor/iron/chapel{
+	dir = 1
+	},
+/area/centcom/central_command_areas/briefing)
+"GN" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/holofloor/white,
+/area/centcom/central_command_areas/armory)
+"GS" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/crusher_trophy/legion_skull{
+	pixel_x = 0;
+	pixel_y = -3
+	},
+/obj/item/crusher_trophy/legion_skull{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/crusher_trophy/legion_skull{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/chapel,
+/area/centcom/central_command_areas/briefing)
+"Hm" = (
+/turf/open/floor/holofloor/white,
+/area/centcom/central_command_areas/armory)
+"II" = (
+/turf/open/floor/iron/white/side{
+	dir = 1
+	},
+/area/centcom/central_command_areas/control)
+"Kc" = (
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"KF" = (
+/obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"KO" = (
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"KQ" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"Lg" = (
+/turf/open/floor/iron/chapel,
+/area/centcom/central_command_areas/briefing)
+"Ls" = (
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/admin/storage)
+"LQ" = (
+/obj/structure/chair/greyscale{
+	dir = 8
+	},
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+"MO" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/clothing/sextoy/condom,
+/obj/item/clothing/sextoy/condom,
+/turf/open/floor/iron/white/side,
+/area/centcom/central_command_areas/control)
+"Nt" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"Oi" = (
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"OJ" = (
+/turf/open/floor/iron/chapel{
+	dir = 10
+	},
+/area/centcom/central_command_areas/briefing)
+"PW" = (
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"Qv" = (
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"Ro" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/armory)
+"Sg" = (
+/turf/open/space/basic,
+/area/space)
+"Tm" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"UO" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/briefing)
+"Wv" = (
+/turf/open/floor/iron/white/side{
+	dir = 8
+	},
+/area/centcom/central_command_areas/control)
+"YT" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/organ/internal/heart/carp{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/organ/internal/heart{
+	pixel_x = -5;
+	pixel_y = 6
+	},
+/obj/item/organ/internal/heart/cybernetic/surplus{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/chapel{
+	dir = 4
+	},
+/area/centcom/central_command_areas/briefing)
+"YU" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron/shuttle/exploration/textured_flat,
+/area/centcom/central_command_areas/courtroom)
+
+(1,1,1) = {"
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+"}
+(2,1,1) = {"
+Sg
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+GK
+Sg
+Sg
+"}
+(3,1,1) = {"
+Sg
+Ro
+Hm
+Hm
+Hm
+kM
+jF
+Ro
+GK
+GK
+KO
+dp
+KO
+KO
+KO
+GK
+Sg
+Sg
+"}
+(4,1,1) = {"
+Sg
+Ro
+GN
+Hm
+Hm
+kM
+kM
+Ro
+GK
+GK
+Ls
+GK
+GK
+qF
+dp
+GK
+Sg
+Sg
+"}
+(5,1,1) = {"
+Sg
+Ro
+lY
+Ro
+Ro
+Ro
+Ro
+Ro
+ff
+YU
+AC
+AC
+GK
+ht
+KO
+GK
+Sg
+Sg
+"}
+(6,1,1) = {"
+Sg
+UO
+gh
+GL
+OJ
+GL
+OJ
+AP
+AC
+KQ
+nT
+AC
+yG
+BG
+KO
+GK
+Sg
+Sg
+"}
+(7,1,1) = {"
+Sg
+UO
+GS
+YT
+Lg
+nJ
+pp
+UO
+AC
+LQ
+EO
+AC
+yG
+BG
+KO
+GK
+Sg
+Sg
+"}
+(8,1,1) = {"
+Sg
+UO
+UO
+UO
+UO
+UO
+tB
+UO
+AC
+AC
+Kc
+ff
+GK
+sl
+dp
+GK
+Sg
+Sg
+"}
+(9,1,1) = {"
+Sg
+je
+ze
+iy
+Ep
+iy
+tP
+Tm
+Tm
+du
+Tm
+Tm
+GK
+GK
+py
+GK
+Tm
+Sg
+"}
+(10,1,1) = {"
+Sg
+je
+MO
+DI
+kb
+DI
+II
+Tm
+Az
+Oi
+Oi
+Nt
+BF
+KF
+Nt
+xA
+Tm
+Sg
+"}
+(11,1,1) = {"
+Sg
+je
+Ao
+Wv
+fR
+Wv
+na
+Tm
+bO
+Qv
+eW
+Qv
+vl
+Qv
+eW
+me
+Tm
+Sg
+"}
+(12,1,1) = {"
+Sg
+je
+je
+je
+je
+je
+je
+Tm
+bH
+Oi
+PW
+Nt
+BF
+Oi
+Nt
+xA
+Tm
+Sg
+"}
+(13,1,1) = {"
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Tm
+Tm
+xl
+Tm
+Tm
+Tm
+Tm
+xl
+Tm
+Tm
+Sg
+"}
+(14,1,1) = {"
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Tm
+Tm
+Tm
+Sg
+Sg
+Tm
+Tm
+Tm
+Sg
+Sg
+"}
+(15,1,1) = {"
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+Sg
+"}
