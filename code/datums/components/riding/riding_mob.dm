@@ -329,7 +329,7 @@
 				TEXT_WEST = list(REGULAR_OFFSET, REGULAR_SIDE_OFFSET)
 			)
 	if (ride_check_flags & RIDING_TAUR)
-		var/obj/item/organ/external/taur_body/taur_body = H.get_organ_slot(ORGAN_SLOT_EXTERNAL_TAUR)
+		var/obj/item/organ/taur_body/taur_body = H.get_organ_slot(ORGAN_SLOT_EXTERNAL_TAUR)
 		return taur_body.get_riding_offset(oversized = HAS_TRAIT(H, TRAIT_OVERSIZED))
 
 	// NOVA EDIT ADDITION END
@@ -583,7 +583,7 @@
 	RegisterSignal(parent, COMSIG_PROJECTILE_PREHIT, PROC_REF(on_bullet_hit))
 	RegisterSignal(parent, COMSIG_MOB_AFTER_APPLY_DAMAGE, PROC_REF(on_attacked))
 
-/datum/component/riding/creature/raptor/proc/on_bullet_hit(atom/target, list/bullet_args, obj/projectile/hit_projectile)
+/datum/component/riding/creature/raptor/proc/on_bullet_hit(atom/target, obj/projectile/hit_projectile)
 	SIGNAL_HANDLER
 
 	if(hit_projectile.armor_flag == ENERGY)

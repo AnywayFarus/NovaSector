@@ -351,6 +351,11 @@ GLOBAL_LIST_EMPTY(fishing_challenges_by_user)
 	if(win)
 		if(reward_path != FISHING_DUD)
 			playsound(location, 'sound/effects/bigsplash.ogg', 100)
+		if(ispath(reward_path, /obj/item/fish))
+			var/obj/item/fish/fish_reward = reward_path
+			var/fish_id = initial(fish_reward.fish_id)
+			if(fish_id)
+				user.client?.give_award(/datum/award/score/progress/fish, user, initial(fish_reward.fish_id))
 	SEND_SIGNAL(user, COMSIG_MOB_COMPLETE_FISHING, src, win)
 	if(!QDELETED(src))
 		qdel(src)
@@ -505,6 +510,8 @@ GLOBAL_LIST_EMPTY(fishing_challenges_by_user)
 			trait.minigame_mod(used_rod, user, src)
 	else
 		mover = new /datum/fish_movement(src)
+
+	SEND_SIGNAL(src, COMSIG_FISHING_CHALLENGE_MOVER_INITIALIZED, mover)
 
 	if(auto_reel)
 		completion *= 1.3

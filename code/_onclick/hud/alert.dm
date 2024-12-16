@@ -129,7 +129,7 @@
 
 //Gas alerts
 // Gas alerts are continuously thrown/cleared by:
-// * /obj/item/organ/internal/lungs/proc/check_breath()
+// * /obj/item/organ/lungs/proc/check_breath()
 // * /mob/living/carbon/check_breath()
 // * /mob/living/carbon/human/check_breath()
 // * /datum/element/atmos_requirements/proc/on_non_stasis_life()
@@ -858,6 +858,8 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 
 /atom/movable/screen/alert/notify_action/Click()
 	. = ..()
+	if(!.)
+		return
 
 	var/atom/target = target_ref?.resolve()
 	if(isnull(target) || !isobserver(owner) || target == owner)
