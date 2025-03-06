@@ -370,3 +370,55 @@
   OrbisAnima:
   - qol: Made a new config in the Game Preferences Sound Menu to toggle eating and
       drinking sounds.
+  - rscadd: Introducing from Donk Co new line of Genetic Pet Treats the Treat Breather,
+      capable of adapting the DNA of your animal companion to the cold and dangers
+      of the void of space. Now Available in Cargo Imports and to Certified Pet Owners.
+      May contain Space Carp and Soy Traces! (Credits to ABoxFaux for sprites and
+      original code!)
+  RatFromTheJungle:
+  - balance: Solfeds rifle are notably less clunky, and notably more aggressive for
+      their permit-needing status.
+  - image: new sprites for half of the solfed-longarms.
+  - balance: Shotguns across the board should be doing more damage, and the solfedshotguns
+      (for the test) shoot, and rack notably faster.
+  - rscdel: Stardust is dead, it's now a taser-in-a-shell, unlike the fake-taser stunslugs.
+  TheSS13Melon:
+  - rscadd: Adds 3 donator items for Spookyrotini
+2025-02-20:
+  OrbisAnima:
+  - rscadd: Allows Material fishing rods be made on the forge.
+  RatFromTheJungle:
+  - balance: The sindano, guepe, and a miniegun kits have started appearing in syndicate-markets
+      galaxy wide.
+  - balance: Sec now starts off with two MR-2543 kits in their armory, with their
+      third sindano being lost in a stock cycling method that's yet to be disclosed.
+  Stalkeros:
+  - qol: The Colonial Supply Core now arrives as a /tg/ flatpack, no longer needing
+      a shitload of resources to be deployed but only a multitool.
+  - balance: The Colonial Supply Core's intended efficiency maluses are now properly
+      applied.
+2025-02-21:
+  RatFromTheJungle:
+  - code_imp: Removes the one-size-fits-all chestical sprite from the suit made of
+      rubber, also drastically lowers it's strip-time.
+2025-02-23:
+  Hardly:
+  - rscadd: Adds tailored jacket to the clothesmate.
+  Iajret:
+  - bugfix: fixed Nova's verbs in TGUI Say for 516 byond
+2025-02-24:
+  FeenieRU, Swing:
+  - map: Added duo-variants of hermits templates.
+  Jedi-Toothpaste:
+  - rscadd: Adds crusher retool kits to loadout
+  OrbisAnima:
+  - qol: Chipped no longer gives you random Brain Damage. Chip Connector no longer
+      REMOVES YOUR BRAIN upon EMP. How these things passed down the R&D phase is beyond
+      us.
+  - bugfix: fixed Wild plants experiments giving 25 minutes worth of science points
+      instead of a full discount for the scythes technology as it supposed to.
+2025-02-27:
+  RatFromTheJungle:
+  - balance: The 'hazard' modsuit is now spaceproof, retaining it's shockproofness,
+      but losing the ability to fit it in your backpack, as it goes on the beltslot
+      now!
