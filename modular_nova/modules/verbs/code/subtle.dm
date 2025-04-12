@@ -152,13 +152,7 @@
 		var/obj/effect/overlay/holo_pad_hologram/hologram = GLOB.hologram_impersonators[user]
 		if((get_dist(user.loc, target_mob.loc) <= subtler_range) || (hologram && get_dist(hologram.loc, target_mob.loc) <= subtler_range))
 			target_mob.show_message(subtler_message, alt_msg = subtler_message)
-<<<<<<< HEAD
 			playsound(target_mob, 'modular_nova/master_files/sound/effects/save.ogg', 50)
-=======
-			var/datum/preferences/prefs = target_mob.client?.prefs
-			if(prefs && prefs.read_preference(/datum/preference/toggle/subtler_sound))
-				target_mob.playsound_local(get_turf(target_mob), 'sound/effects/achievement/glockenspiel_ping.ogg', 50)
->>>>>>> upstream/master
 		else
 			to_chat(user, span_warning("Your emote was unable to be sent to your target: Too far away."))
 	else if(istype(target, /obj/effect/overlay/holo_pad_hologram))
