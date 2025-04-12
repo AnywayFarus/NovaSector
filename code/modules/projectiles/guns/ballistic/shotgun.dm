@@ -57,7 +57,7 @@
 	..()
 	rack()
 
-/obj/item/gun/ballistic/shotgun/automatic/combat //ICON OVERRIDDEN IN NOVA AESTHETICS - SEE MODULE
+/obj/item/gun/ballistic/shotgun/automatic/combat //NOVA EDIT - ICON OVERRIDDEN IN AESTHETICS MODULE
 	name = "combat shotgun"
 	desc = "A semi automatic shotgun with tactical furniture and a six-shell capacity underneath."
 	icon_state = "cshotgun"
@@ -159,7 +159,7 @@
 	accepted_magazine_type = /obj/item/ammo_box/magazine/m12g
 	can_suppress = FALSE
 	burst_size = 2
-	fire_delay = 0.75 SECONDS // NOVA EDIT CHANGE - Original: fire_delay = 1
+	burst_delay = 1
 	pin = /obj/item/firing_pin/implant/pindicate
 	fire_sound = 'sound/items/weapons/gun/shotgun/shot_alt.ogg'
 	actions_types = list(/datum/action/item_action/toggle_firemode)
