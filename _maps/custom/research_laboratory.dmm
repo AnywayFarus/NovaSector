@@ -1,0 +1,1267 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aaa" = (
+/turf/open/space/basic,
+/area/space)
+"aab" = (
+/turf/closed/wall,
+/area/centcom/central_command_areas/admin)
+"aac" = (
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aad" = (
+/obj/structure/table,
+/obj/item/storage/box/beakers,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aae" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aaf" = (
+/obj/structure/bed/medical/emergency,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/supply)
+"aag" = (
+/obj/machinery/door/airlock/research{
+	name = "Research Laboratory"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/admin)
+"aah" = (
+/obj/machinery/door/airlock/medical{
+	name = "Medical Bay"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supply)
+"aai" = (
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aaj" = (
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/supply)
+"aak" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aal" = (
+/obj/machinery/computer/crew,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aam" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/medical,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/supply)
+"aan" = (
+/obj/machinery/door/airlock{
+	name = "Dining Hall"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aao" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aap" = (
+/obj/structure/table,
+/obj/item/food/bread,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aaq" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aar" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aas" = (
+/obj/machinery/microwave,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aat" = (
+/obj/machinery/door/airlock{
+	name = "Dormitory"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"aau" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"aav" = (
+/obj/structure/bed,
+/obj/item/bedsheet,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"aaw" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"aax" = (
+/obj/structure/table,
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"aay" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/admin)
+"aaz" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/briefing)
+"aba" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/holding)
+"abb" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/supply)
+"abc" = (
+/obj/machinery/door/airlock{
+	name = "Storage"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/admin/storage)
+"abd" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/admin/storage)
+"abe" = (
+/obj/structure/closet/crate,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/admin/storage)
+"abf" = (
+/obj/structure/table,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/admin/storage)
+"abg" = (
+/obj/machinery/door/airlock{
+	name = "Crew Quarters"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abh" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abi" = (
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abj" = (
+/obj/structure/table,
+/obj/item/storage/box/cups,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abk" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abl" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/evacuation)
+"abm" = (
+/obj/machinery/door/airlock/research{
+	name = "Chemistry Laboratory"
+	},
+/turf/open/floor/iron,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abn" = (
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abo" = (
+/obj/structure/table,
+/obj/item/reagent_containers/cup/beaker,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abp" = (
+/obj/machinery/chem_dispenser,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abq" = (
+/obj/machinery/door/airlock/research{
+	name = "Biology Laboratory"
+	},
+/turf/open/floor/iron,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abr" = (
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abs" = (
+/obj/structure/table,
+/obj/item/storage/box/petridish,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abt" = (
+/obj/machinery/smartfridge/chemistry,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bioterrorism)
+"abu" = (
+/obj/machinery/door/airlock/research{
+	name = "Physics Laboratory"
+	},
+/turf/open/floor/iron,
+/area/centcom/syndicate_mothership/expansion_bombthreat)
+"abv" = (
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bombthreat)
+"abw" = (
+/obj/structure/table,
+/obj/item/analyzer,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bombthreat)
+"abx" = (
+/obj/machinery/computer/rdconsole,
+/turf/open/floor/iron/white,
+/area/centcom/syndicate_mothership/expansion_bombthreat)
+"aby" = (
+/obj/machinery/door/airlock{
+	name = "Hallway"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/fore)
+"abz" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/fore)
+"aca" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/fore)
+"acb" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/fore)
+"acc" = (
+/obj/machinery/door/airlock{
+	name = "Engineering Bay"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supplypod)
+"acd" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supplypod)
+"ace" = (
+/obj/structure/table,
+/obj/item/wrench,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supplypod)
+"acf" = (
+/obj/machinery/computer/crew,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supplypod)
+"acg" = (
+/obj/structure/closet/toolcloset,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/supplypod)
+"ach" = (
+/obj/machinery/door/airlock/research{
+	name = "Robotics Laboratory"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/armory)
+"aci" = (
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/armory)
+"acj" = (
+/obj/structure/table,
+/obj/item/assembly/prox_sensor,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/armory)
+"ack" = (
+/obj/machinery/computer/robotics,
+/turf/open/floor/iron/white,
+/area/centcom/central_command_areas/armory)
+"acl" = (
+/obj/machinery/door/airlock{
+	name = "Command Center"
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/control)
+"acm" = (
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/control)
+"acn" = (
+/obj/structure/table,
+/obj/item/clipboard,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/control)
+"aco" = (
+/obj/machinery/computer/communications,
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/control)
+"acp" = (
+/obj/structure/chair/comfy/teal{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/control)
+
+(1,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(2,1,1) = {"
+aaa
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
+"}
+(3,1,1) = {"
+aaa
+aab
+aad
+aae
+aab
+aaf
+aam
+aab
+aap
+aas
+aab
+aav
+aaw
+aab
+abe
+abf
+aab
+abo
+abp
+aab
+abs
+abt
+aab
+abw
+abx
+aab
+acj
+ack
+aab
+aaa
+"}
+(4,1,1) = {"
+aaa
+aab
+aai
+aak
+aag
+aaj
+abb
+aah
+aaq
+aao
+aan
+aau
+aau
+aat
+abd
+abd
+abc
+abn
+abn
+abm
+abr
+abr
+abq
+abv
+abv
+abu
+aci
+aci
+ach
+aab
+"}
+(5,1,1) = {"
+aaa
+aab
+aai
+aai
+aab
+aaj
+aaj
+aab
+aar
+aaz
+aab
+aau
+aba
+aab
+abd
+abd
+aab
+abn
+abn
+aab
+abr
+abr
+aab
+abv
+abv
+aab
+aci
+aci
+aab
+aaa
+"}
+(6,1,1) = {"
+aaa
+aab
+aay
+aal
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
+"}
+(7,1,1) = {"
+aaa
+aab
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+abz
+abz
+aby
+aab
+"}
+(8,1,1) = {"
+aaa
+aab
+aca
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+aaa
+"}
+(9,1,1) = {"
+aaa
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+aaa
+"}
+(10,1,1) = {"
+aaa
+aab
+abz
+acb
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+abz
+abz
+aab
+aaa
+"}
+(11,1,1) = {"
+aaa
+aab
+aab
+aby
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
+"}
+(12,1,1) = {"
+aaa
+aab
+ace
+acd
+acc
+acd
+acd
+aab
+acn
+aco
+acl
+acm
+acm
+aab
+abi
+abj
+abg
+abh
+abh
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(13,1,1) = {"
+aaa
+aab
+acd
+acd
+aab
+acd
+acd
+aab
+acm
+acp
+aab
+acm
+acm
+aab
+abl
+abk
+aab
+abh
+abh
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(14,1,1) = {"
+aaa
+aab
+acf
+acg
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+abg
+aab
+aab
+aab
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(15,1,1) = {"
+aaa
+aab
+aab
+aab
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(16,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(17,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(18,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(19,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(20,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(21,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(22,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(23,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(24,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(25,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(26,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(27,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(28,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(29,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}
+(30,1,1) = {"
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+"}

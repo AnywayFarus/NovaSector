@@ -1,0 +1,1170 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bm" = (
+/obj/machinery/computer/rdservercontrol{
+	dir = 8
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"bp" = (
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"ci" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"di" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"en" = (
+/turf/closed/indestructible/opsglass,
+/area/centcom/central_command_areas/admin)
+"eU" = (
+/obj/structure/closet/secure_closet/freezer/cream_pie,
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"ft" = (
+/obj/effect/turf_decal/shuttle,
+/obj/effect/turf_decal/shuttle{
+	dir = 6
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"fW" = (
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"ga" = (
+/obj/effect/turf_decal/shuttle{
+	dir = 9
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"hu" = (
+/obj/machinery/computer/reality_simulation{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"is" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/flora/bush/fullgrass/style_2,
+/obj/structure/flora/bush/flowers_yw/style_2,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"jg" = (
+/obj/structure/closet,
+/obj/item/clothing/under/sweater/black,
+/obj/item/clothing/under/pants/jeans,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"jt" = (
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/computer/gateway_control{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"ka" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"kw" = (
+/obj/effect/turf_decal/shuttle{
+	dir = 5
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"le" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/paper/carbon,
+/obj/item/paper/carbon,
+/obj/item/paper/carbon,
+/obj/item/paper/carbon,
+/obj/item/paper/carbon,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"nN" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/flowers_pp,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"nZ" = (
+/obj/effect/turf_decal/shuttle,
+/obj/effect/turf_decal/shuttle{
+	dir = 10
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"ok" = (
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"ot" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/flora/bush/grassy,
+/obj/structure/flora/bush/flowers_br,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"oX" = (
+/obj/structure/closet,
+/obj/item/clothing/under/sweater/red,
+/obj/item/clothing/under/pants/jeans,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"qw" = (
+/obj/effect/turf_decal/shuttle{
+	dir = 4
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"rn" = (
+/obj/machinery/light/floor,
+/turf/open/indestructible/dark/textured,
+/area/centcom/central_command_areas/admin)
+"rr" = (
+/obj/projectile/beam/laser/musket{
+	pixel_x = 0;
+	pixel_y = -9
+	},
+/obj/projectile/beam/laser/musket{
+	pixel_x = 0;
+	pixel_y = 18
+	},
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"si" = (
+/obj/machinery/light/floor,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/admin)
+"ss" = (
+/obj/projectile/beam/laser/musket{
+	pixel_x = 0;
+	pixel_y = -11
+	},
+/obj/projectile/beam/laser/musket{
+	pixel_x = 0;
+	pixel_y = 19
+	},
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"tT" = (
+/obj/machinery/door/airlock/research/glass,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"vc" = (
+/obj/structure/table/reinforced,
+/obj/item/pizzabox/margherita,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"vC" = (
+/obj/structure/closet,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"wb" = (
+/turf/open/openspace,
+/area/space)
+"wA" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas/admin)
+"wO" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/kirbyplants/organic/plant17{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"wR" = (
+/obj/machinery/door/window/right/directional/east,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"yQ" = (
+/obj/machinery/power/emitter,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"zr" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"BR" = (
+/obj/machinery/computer/robotics{
+	dir = 1
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"Cl" = (
+/obj/effect/turf_decal/shuttle{
+	dir = 8
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"CI" = (
+/obj/structure/fans/tiny,
+/obj/machinery/light/floor,
+/turf/open/indestructible/dark/textured,
+/area/centcom/central_command_areas/admin)
+"Dd" = (
+/turf/closed/indestructible/opshuttle,
+/area/centcom/central_command_areas/armory)
+"DF" = (
+/obj/machinery/door/airlock/external,
+/turf/open/indestructible/dark/textured,
+/area/centcom/central_command_areas/admin)
+"DT" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/flora/bush/fullgrass/style_2,
+/obj/structure/flora/bush/flowers_br,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"DX" = (
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"EN" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/flora/bush/grassy,
+/obj/structure/flora/bush/flowers_pp,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"Gs" = (
+/obj/structure/sign/flag/nanotrasen/directional/north,
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"GD" = (
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/admin)
+"IX" = (
+/turf/closed/indestructible/opshuttle,
+/area/centcom/central_command_areas/admin)
+"Kp" = (
+/turf/open/space/basic,
+/area/space)
+"Ku" = (
+/obj/effect/turf_decal/shuttle,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"Mu" = (
+/obj/machinery/door/airlock/research,
+/obj/machinery/light/floor,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"MV" = (
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"NT" = (
+/obj/machinery/door/window/left/directional/west,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"Os" = (
+/obj/structure/billboard/nanotrasen,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space)
+"OW" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/cup/glass/coffee{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"Pd" = (
+/obj/machinery/radiocarbon_spectrometer,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"Qp" = (
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/recharger{
+	name = "id scanner";
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"Rr" = (
+/obj/machinery/computer/rdconsole{
+	dir = 4
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"Sn" = (
+/turf/closed/indestructible/opsglass,
+/area/centcom/central_command_areas/admin/storage)
+"SR" = (
+/turf/open/openspace,
+/area/centcom/central_command_areas/admin/storage)
+"TW" = (
+/turf/closed/indestructible/opsglass,
+/area/centcom/central_command_areas/armory)
+"Ud" = (
+/obj/machinery/door/airlock/research,
+/turf/open/indestructible/dark/textured,
+/area/centcom/central_command_areas/admin)
+"Uo" = (
+/turf/closed/indestructible/opshuttle,
+/area/centcom/central_command_areas/admin/storage)
+"Ur" = (
+/obj/machinery/computer/quantum_console{
+	dir = 1
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/armory)
+"UK" = (
+/obj/machinery/door/airlock/research,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"UO" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/flowers_yw/style_2,
+/turf/open/misc/grass/jungle,
+/area/centcom/central_command_areas/admin)
+"Vx" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"VD" = (
+/obj/structure/fake_stairs/directional/north,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"WQ" = (
+/obj/structure/table/reinforced{
+	pixel_x = -11;
+	pixel_y = 0
+	},
+/obj/machinery/microwave{
+	pixel_x = -12;
+	pixel_y = 7
+	},
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin/storage)
+"WR" = (
+/obj/structure/stairs/north,
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+"YH" = (
+/turf/open/indestructible/large,
+/area/centcom/central_command_areas/admin)
+
+(1,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(2,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(3,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(4,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(5,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(6,1,1) = {"
+Kp
+Kp
+Kp
+IX
+en
+en
+en
+IX
+IX
+en
+en
+en
+IX
+IX
+Kp
+Os
+Kp
+Kp
+Kp
+"}
+(7,1,1) = {"
+Kp
+Kp
+Kp
+IX
+WR
+VD
+fW
+tT
+GD
+GD
+GD
+si
+ot
+en
+Kp
+ci
+Kp
+Kp
+Kp
+"}
+(8,1,1) = {"
+Kp
+Kp
+Kp
+IX
+IX
+IX
+wA
+IX
+IX
+NT
+wO
+GD
+is
+en
+Kp
+ci
+Kp
+Kp
+Kp
+"}
+(9,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+IX
+IX
+IX
+wA
+YH
+jt
+GD
+nN
+IX
+en
+en
+en
+IX
+Kp
+"}
+(10,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+IX
+IX
+Gs
+Qp
+GD
+GD
+Ud
+rn
+DF
+CI
+DF
+Kp
+"}
+(11,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+IX
+IX
+IX
+wA
+YH
+OW
+GD
+UO
+IX
+en
+en
+en
+IX
+Kp
+"}
+(12,1,1) = {"
+Kp
+Kp
+Kp
+IX
+IX
+IX
+wA
+IX
+IX
+wR
+le
+GD
+DT
+en
+Kp
+Os
+Kp
+Kp
+Kp
+"}
+(13,1,1) = {"
+Kp
+Kp
+Kp
+IX
+WR
+VD
+fW
+tT
+GD
+GD
+GD
+si
+EN
+en
+Kp
+ci
+Kp
+Kp
+Kp
+"}
+(14,1,1) = {"
+Kp
+Kp
+Kp
+IX
+en
+en
+en
+IX
+IX
+en
+en
+en
+IX
+IX
+Kp
+ci
+Kp
+Kp
+Kp
+"}
+(15,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(16,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(17,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(18,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+(19,1,1) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}
+
+(1,1,2) = {"
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(2,1,2) = {"
+Kp
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(3,1,2) = {"
+Kp
+Uo
+jg
+oX
+vC
+vC
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(4,1,2) = {"
+Kp
+Uo
+ok
+MV
+MV
+ok
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(5,1,2) = {"
+Kp
+Uo
+MV
+vC
+vC
+vC
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(6,1,2) = {"
+Kp
+Uo
+UK
+Uo
+Uo
+Uo
+Uo
+TW
+TW
+TW
+Dd
+Dd
+Dd
+Dd
+Dd
+Dd
+wb
+wb
+wb
+"}
+(7,1,2) = {"
+Kp
+Uo
+MV
+MV
+SR
+SR
+Dd
+DX
+DX
+DX
+Mu
+DX
+Pd
+rr
+Pd
+Dd
+wb
+wb
+wb
+"}
+(8,1,2) = {"
+Kp
+Sn
+ok
+Dd
+Dd
+Dd
+Dd
+Mu
+TW
+Dd
+Dd
+DX
+ga
+Cl
+nZ
+Dd
+wb
+wb
+wb
+"}
+(9,1,2) = {"
+Kp
+Sn
+MV
+Dd
+Rr
+Rr
+Rr
+DX
+DX
+BR
+TW
+DX
+DX
+DX
+Ku
+Dd
+wb
+wb
+wb
+"}
+(10,1,2) = {"
+Kp
+Uo
+MV
+Mu
+bp
+DX
+DX
+bp
+DX
+hu
+TW
+yQ
+DX
+bp
+Ku
+Dd
+wb
+wb
+wb
+"}
+(11,1,2) = {"
+Kp
+Sn
+MV
+Dd
+bm
+bm
+bm
+DX
+DX
+Ur
+TW
+DX
+DX
+DX
+Ku
+Dd
+wb
+wb
+wb
+"}
+(12,1,2) = {"
+Kp
+Sn
+MV
+Dd
+Dd
+Dd
+Dd
+Mu
+TW
+Dd
+Dd
+DX
+kw
+qw
+ft
+Dd
+wb
+wb
+wb
+"}
+(13,1,2) = {"
+Kp
+Uo
+ok
+MV
+SR
+SR
+Uo
+DX
+DX
+DX
+Mu
+DX
+Pd
+ss
+Pd
+Dd
+wb
+wb
+wb
+"}
+(14,1,2) = {"
+Kp
+Uo
+UK
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Dd
+Dd
+Dd
+wb
+wb
+wb
+"}
+(15,1,2) = {"
+Kp
+Uo
+MV
+MV
+MV
+MV
+UK
+MV
+MV
+ok
+MV
+MV
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(16,1,2) = {"
+Kp
+Uo
+eU
+MV
+vc
+di
+Uo
+UK
+Uo
+UK
+Uo
+UK
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(17,1,2) = {"
+Kp
+Uo
+WQ
+MV
+zr
+Vx
+Uo
+ka
+Uo
+ka
+Uo
+ka
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(18,1,2) = {"
+Kp
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+Uo
+wb
+wb
+wb
+wb
+wb
+wb
+"}
+(19,1,2) = {"
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+Kp
+"}

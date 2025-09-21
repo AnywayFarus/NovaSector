@@ -1,0 +1,176 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/admin)
+"b" = (
+/obj/structure/table{
+	color = "#ddb3ff"
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_robustgold{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/structure/votebox{
+	color = "#ddb3ff";
+	name = "ash tray";
+	pixel_x = 6;
+	pixel_y = -8
+	},
+/obj/item/lighter{
+	color = "#ddb3ff";
+	pixel_x = 9;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/purple,
+/area/centcom/central_command_areas/admin)
+"f" = (
+/turf/open/space/basic,
+/area/centcom/central_command_areas/admin)
+"m" = (
+/obj/structure/chair/comfy{
+	color = "#ddb3ff";
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled/purple,
+/area/centcom/central_command_areas/admin)
+"q" = (
+/obj/structure/chair/sofa/middle{
+	color = "#ddb3ff"
+	},
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/obj/structure/sign/poster/contraband/arc_slimes/directional/north,
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"t" = (
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"x" = (
+/obj/structure/chair/sofa/left{
+	color = "#ddb3ff"
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"y" = (
+/obj/structure/chair/sofa/right{
+	light_color = "#ddb3ff";
+	color = "#ddb3ff"
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"B" = (
+/turf/open/floor/mineral/titanium/tiled/purple,
+/area/centcom/central_command_areas/admin)
+"D" = (
+/obj/machinery/light/floor{
+	invisibility = 60
+	},
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"I" = (
+/obj/structure/sign/poster/contraband/little_fruits/directional/west,
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"J" = (
+/obj/structure/sign/poster/contraband/korpstech/directional/east,
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"M" = (
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/south,
+/turf/open/floor/mineral/titanium/purple,
+/area/centcom/central_command_areas/admin)
+"Q" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas/admin)
+
+(1,1,1) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+"}
+(2,1,1) = {"
+f
+a
+a
+a
+a
+a
+a
+f
+"}
+(3,1,1) = {"
+f
+a
+D
+I
+t
+D
+a
+f
+"}
+(4,1,1) = {"
+f
+a
+y
+B
+B
+M
+a
+f
+"}
+(5,1,1) = {"
+f
+a
+q
+B
+m
+D
+Q
+f
+"}
+(6,1,1) = {"
+f
+a
+x
+B
+b
+t
+a
+f
+"}
+(7,1,1) = {"
+f
+a
+D
+J
+t
+D
+a
+f
+"}
+(8,1,1) = {"
+f
+a
+a
+a
+a
+a
+a
+f
+"}
+(9,1,1) = {"
+f
+f
+f
+f
+f
+f
+f
+f
+"}

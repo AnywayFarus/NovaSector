@@ -1,0 +1,4853 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"am" = (
+/obj/structure/sign/poster/abductor/ayy_over_tizira/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"aB" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/fake_stairs/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"aF" = (
+/obj/structure/sign/poster/abductor/ayy_recruitment/directional/north,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"aI" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/prison)
+"aQ" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"aU" = (
+/obj/structure/mineral_door/iron,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"bM" = (
+/obj/structure/toilet,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"cF" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/east,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"cG" = (
+/obj/structure/sink/directional/north,
+/obj/machinery/light/directional/south{
+	color = "#5e5bc4"
+	},
+/obj/structure/mirror/directional/south,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"di" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/cigarette/rollie/cannabis{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/centcom/central_command_areas/admin)
+"dp" = (
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"dL" = (
+/obj/machinery/stove,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"dT" = (
+/obj/machinery/door/airlock/diamond/glass,
+/obj/effect/mapping_helpers/airlock/access/any,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"eu" = (
+/turf/closed/wall/mineral/gold,
+/area/centcom/central_command_areas)
+"ew" = (
+/turf/closed/wall/mineral/silver,
+/area/centcom/central_command_areas)
+"fn" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/control)
+"fp" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas)
+"ft" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"fG" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/random/food_or_drink/donuts,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"fZ" = (
+/obj/item/trash/can{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"ge" = (
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"gi" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"gA" = (
+/obj/structure/table/optable{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"ho" = (
+/turf/closed/indestructible/fakedoor,
+/area/centcom/central_command_areas)
+"hC" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/blowing_glass{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/plate/blowing_glass{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/item/plate/blowing_glass{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/obj/item/plate/blowing_glass{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/item/plate/blowing_glass{
+	pixel_x = 0;
+	pixel_y = 15
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"hF" = (
+/obj/machinery/oven/range,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"hI" = (
+/obj/item/cigbutt{
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"it" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/admin/storage)
+"iI" = (
+/obj/structure/chair/sofa/right,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"iJ" = (
+/obj/item/cigbutt{
+	pixel_x = -10;
+	pixel_y = 15
+	},
+/obj/structure/mineral_door/wood,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"iX" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"jg" = (
+/obj/machinery/light_switch/directional/west,
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"jm" = (
+/obj/structure/sign/warning/yes_smoking/circle/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"jn" = (
+/obj/structure/chair/sofa/middle{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"js" = (
+/obj/structure/toilet,
+/obj/machinery/light/directional/north{
+	color = "#5e5bc4"
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"jw" = (
+/obj/effect/turf_decal/board_number/one{
+	pixel_x = -14;
+	pixel_y = 23
+	},
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"jD" = (
+/obj/machinery/cryo_cell,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"jQ" = (
+/obj/structure/sign/poster/abductor/ayy_fancy/directional/north,
+/obj/effect/spawner/random/trash/crushed_can,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"jY" = (
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"kd" = (
+/obj/effect/spawner/random/trash/crushed_can,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"kB" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"kD" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"kO" = (
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"kQ" = (
+/obj/structure/bed/double/pod{
+	dir = 4
+	},
+/obj/item/bedsheet/orange/double{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"kR" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"lr" = (
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"lA" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"lK" = (
+/obj/structure/urinal/directional/west,
+/obj/machinery/light/directional/north{
+	color = "#5e5bc4"
+	},
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"lV" = (
+/obj/machinery/cryopod/prison/directional/south,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"mi" = (
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"ml" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/effect/spawner/random/food_or_drink/donuts,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"mw" = (
+/turf/open/space/basic,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"mJ" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"mM" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"nw" = (
+/obj/structure/mineral_door/paperframe,
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/control)
+"nD" = (
+/obj/structure/sink/kitchen/directional/north,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"nJ" = (
+/turf/open/floor/iron/white/diagonal,
+/area/centcom/central_command_areas/evacuation)
+"nQ" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/jukebox/disco/indestructible,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"oa" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/armory)
+"ob" = (
+/obj/structure/sink/directional/north,
+/obj/structure/mirror/directional/south,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"oc" = (
+/obj/machinery/door/password,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"ok" = (
+/obj/machinery/barsign/all_access/directional/north,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"ol" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"om" = (
+/obj/item/trash/can{
+	pixel_x = -8;
+	pixel_y = -9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"ox" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/evacuation/ship)
+"oN" = (
+/obj/machinery/oven/range,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"oV" = (
+/obj/item/serviette_used{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"oW" = (
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"pd" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_master/fullupgrade,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"pt" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"px" = (
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"pS" = (
+/turf/closed/wall/mineral/iron,
+/area/ruin/space)
+"qg" = (
+/turf/open/floor/mineral/titanium/tiled,
+/area/centcom/central_command_areas/prison)
+"qI" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas)
+"ra" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
+	pixel_x = -8;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
+	pixel_x = 2;
+	pixel_y = 18
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
+	pixel_x = 9;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
+	pixel_x = 9;
+	pixel_y = 18
+	},
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
+	pixel_x = -9;
+	pixel_y = 16
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"rd" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/admin)
+"rg" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"rs" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin/carbon{
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/obj/item/perfume/mint{
+	pixel_x = -9;
+	pixel_y = 12
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"ru" = (
+/obj/structure/table/glass,
+/obj/item/kirbyplants/organic/plant2{
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"si" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/effect/spawner/random/food_or_drink/booze,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"su" = (
+/turf/open/floor/carpet/royalblack,
+/area/centcom/central_command_areas/briefing)
+"sG" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/courtroom)
+"sH" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"tu" = (
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/west,
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/south,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"tw" = (
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"tz" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"tV" = (
+/obj/machinery/hypnochair{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"uv" = (
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"uw" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/deforest_surgical{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"vb" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"vg" = (
+/obj/structure/bed/bdsm_bed,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"vj" = (
+/turf/open/space/basic,
+/area/ruin/space)
+"vr" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"vC" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"vR" = (
+/obj/structure/flora/bush/lavendergrass/style_2,
+/obj/structure/flora/bush/grassy/style_4,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/fullgrass/style_2,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/grass/fairy,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"vU" = (
+/obj/structure/chair/sofa/left,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"wf" = (
+/obj/structure/chair/stool/bar/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"wi" = (
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"wk" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = -5;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"ws" = (
+/obj/machinery/shower/directional/south{
+	reagent_capacity = 2000000
+	},
+/obj/structure/curtain/cloth,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"wA" = (
+/obj/item/trash/cheesie{
+	pixel_x = -8;
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"wZ" = (
+/obj/effect/turf_decal/board_number/two{
+	pixel_x = 12;
+	pixel_y = 24
+	},
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"xc" = (
+/obj/structure/bed/double/pod{
+	dir = 4
+	},
+/obj/item/bedsheet/orange/double{
+	dir = 1
+	},
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"xf" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/stairs/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"xs" = (
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = -23;
+	pixel_y = 7
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"xY" = (
+/obj/structure/mineral_door/paperframe,
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"yg" = (
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"yu" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/large,
+/obj/item/plate/large{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/item/plate/large{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"yJ" = (
+/obj/item/trash/champagne_cork{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"yL" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/vendor_tray_meal/pesto_pizza{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/food/vendor_tray_meal/mushroom_fry{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_shadyjims{
+	pixel_x = 10;
+	pixel_y = 0
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/centcom/central_command_areas/admin)
+"yN" = (
+/turf/open/space/basic,
+/area/centcom/central_command_areas)
+"yU" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"zw" = (
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"zA" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/structure/closet,
+/turf/open/floor/mineral/titanium/tiled,
+/area/centcom/central_command_areas/prison)
+"Ai" = (
+/obj/item/serviette_used{
+	pixel_x = 7;
+	pixel_y = -6
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"Al" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/centcom/central_command_areas/evacuation)
+"Ap" = (
+/obj/item/clothing/sextoy/condom{
+	pixel_x = -2;
+	pixel_y = -7
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"AD" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"AH" = (
+/obj/structure/window/reinforced/tinted/spawner/directional/north,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"AN" = (
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"Bh" = (
+/obj/machinery/computer/security/telescreen/minisat/directional/east,
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"Bn" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/item/paper{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/structure/towel_bin{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"Bo" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/machinery/light_switch/directional/north,
+/obj/structure/table/reinforced/titaniumglass,
+/obj/structure/towel_bin{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/paper{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/courtroom)
+"Bs" = (
+/obj/structure/chair/sofa/middle,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"Bv" = (
+/obj/structure/chair/stool/bar/directional/east{
+	pixel_x = 6;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"BC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/jukebox/disco/indestructible,
+/turf/open/floor/light/colour_cycle/dancefloor_a,
+/area/centcom/central_command_areas/admin)
+"BS" = (
+/obj/structure/falsewall/iron,
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"BT" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = -4;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"Ce" = (
+/obj/structure/sign/poster/abductor/ayy_over_tizira/directional/west,
+/obj/structure/sign/poster/abductor/ayy_piping/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"Cr" = (
+/obj/structure/chair/stool/bar/directional/east{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"Cy" = (
+/obj/structure/bed/medical{
+	dir = 4
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"CC" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/item/surgery_tray,
+/obj/item/teleport_rod{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"CF" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblack,
+/area/centcom/central_command_areas/briefing)
+"CG" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/vendor_tray_meal/sushi{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_robustgold{
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/open/floor/light/colour_cycle/dancefloor_b,
+/area/centcom/central_command_areas/admin)
+"CL" = (
+/obj/machinery/vending/dorms{
+	onstation = 0;
+	shut_up = 1
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"CO" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/pod/old/syndicate{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"CU" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/ferry)
+"Dr" = (
+/obj/machinery/computer/security/telescreen/aiupload/directional/east,
+/obj/structure/displaycase/trophy,
+/obj/item/clothing/sextoy/buttplug,
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"Ds" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/donut/meat,
+/obj/item/food/donut/meat{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/obj/item/food/donut/meat{
+	pixel_x = -10;
+	pixel_y = 0
+	},
+/obj/item/food/donut/meat{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/food/donut/meat{
+	pixel_x = 7;
+	pixel_y = 9
+	},
+/obj/item/food/donut/meat{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"Du" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/effect/mapping_helpers/airlock/access/any,
+/turf/open/floor/iron/white/side,
+/area/centcom/central_command_areas/evacuation)
+"DG" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/light/colour_cycle,
+/area/centcom/central_command_areas/admin)
+"DV" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/north,
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/west,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"DZ" = (
+/obj/machinery/door/window/left/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"Eb" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/holding)
+"Eq" = (
+/obj/machinery/door/airlock/diamond/glass,
+/obj/effect/mapping_helpers/airlock/access/any,
+/turf/open/floor/mineral/titanium/tiled,
+/area/centcom/central_command_areas/prison)
+"EB" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"EG" = (
+/obj/structure/closet,
+/turf/open/floor/mineral/titanium/tiled,
+/area/centcom/central_command_areas/prison)
+"EY" = (
+/obj/structure/urinal/directional/east,
+/obj/machinery/light/directional/north{
+	color = "#5e5bc4"
+	},
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"FD" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/titanium/tiled,
+/area/centcom/central_command_areas/prison)
+"FG" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"Ga" = (
+/obj/item/serviette_used{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"Gb" = (
+/obj/structure/toilet,
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/courtroom)
+"Go" = (
+/obj/structure/flora/bush/fullgrass/style_2,
+/obj/structure/flora/bush/fullgrass/style_3,
+/obj/structure/flora/bush/grassy/style_2,
+/obj/structure/flora/bush/lavendergrass,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/window/reinforced/spawner/directional/north,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/grass/fairy,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"GV" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/microwave,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"GZ" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"Hr" = (
+/obj/machinery/computer/cryopod/directional/south,
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"It" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin/carbon{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/perfume/mint{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"Iy" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"IH" = (
+/turf/open/space/basic,
+/area/centcom/central_command_areas/armory)
+"IL" = (
+/obj/machinery/door/puzzle,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"IO" = (
+/obj/effect/spawner/random/trash/cigbutt,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"IW" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/smartfridge/drinks,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"Jh" = (
+/obj/structure/urinal/directional/east,
+/obj/structure/window/reinforced/tinted/spawner/directional/west,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"Jk" = (
+/obj/structure/sign/poster/abductor/ayy_no/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"JC" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"JO" = (
+/obj/structure/sign/directions/cryo/directional/south,
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"JQ" = (
+/obj/machinery/deepfryer,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"Kk" = (
+/obj/machinery/computer/security/telescreen/aiupload/directional/east,
+/turf/open/floor/mineral/silver,
+/area/centcom/central_command_areas/evacuation/ship)
+"KJ" = (
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"KR" = (
+/obj/structure/holosign/privacy/erp,
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/admin)
+"KW" = (
+/obj/effect/turf_decal/siding/thinplating_new/light,
+/obj/effect/turf_decal/siding/thinplating_new/light{
+	dir = 1
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"Lr" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin/carbon{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/perfume/mint{
+	pixel_x = 8;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/cocaine{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"LZ" = (
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/courtroom)
+"Mu" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/carpet/royalblack,
+/area/centcom/central_command_areas/briefing)
+"Nc" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/fore)
+"Nv" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"NU" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"NX" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/knife{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/clothing/suit/apron/chef{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"Oi" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 0;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -6;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 8;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 9;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 9;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = 1;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/cup/glass/drinkingglass{
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"OF" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/random/food_or_drink/booze,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"OG" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/spawner/random/food_or_drink/cups,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"OK" = (
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/north,
+/obj/structure/sign/poster/contraband/lusty_xenomorph/directional/east,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"Pp" = (
+/obj/item/storage/backpack/duffelbag/deforest_surgical{
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"PL" = (
+/obj/structure/table/optable{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"Qf" = (
+/obj/structure/urinal/directional/west,
+/obj/structure/window/reinforced/tinted/spawner/directional/east,
+/turf/open/floor/iron/herringbone,
+/area/centcom/central_command_areas/admin/storage)
+"QO" = (
+/obj/machinery/stove,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"QX" = (
+/obj/machinery/door/airlock/vault,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"Rj" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/space)
+"Rt" = (
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"RS" = (
+/turf/closed/wall/mineral/gold,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"Sc" = (
+/obj/structure/chair/stool/bar/directional/west{
+	pixel_x = 2;
+	pixel_y = 0
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"So" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"Sr" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"Su" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer/on/coldroom,
+/turf/open/floor/mineral/titanium/tiled/white,
+/area/centcom/central_command_areas/prison)
+"Sw" = (
+/obj/structure/sign/poster/contraband/ambrosia_vulgaris/directional/north,
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"Tf" = (
+/obj/structure/table/reinforced/plasmarglass,
+/obj/effect/spawner/random/food_or_drink/cups,
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"Tt" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/courtroom)
+"Tv" = (
+/turf/open/openspace,
+/area/centcom/central_command_areas/briefing)
+"TC" = (
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/evacuation)
+"TJ" = (
+/turf/open/floor/glass/reinforced,
+/area/centcom/central_command_areas/briefing)
+"Uh" = (
+/obj/machinery/door/airlock/vault,
+/obj/effect/mapping_helpers/airlock/access/any,
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"Uq" = (
+/obj/machinery/door/airlock/diamond/glass,
+/obj/effect/mapping_helpers/airlock/access/any,
+/turf/open/floor/iron/freezer,
+/area/centcom/central_command_areas/holding)
+"Ut" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/drinks/fullupgrade,
+/turf/open/floor/iron/colony,
+/area/centcom/central_command_areas/admin)
+"Uw" = (
+/obj/structure/fence/door,
+/turf/open/floor/iron/goonplaque,
+/area/centcom/central_command_areas/admin)
+"UA" = (
+/obj/structure/mineral_door/paperframe,
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"UD" = (
+/obj/item/kirbyplants/organic/plant2{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"Vh" = (
+/obj/structure/mineral_door/wood,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/admin/storage)
+"VK" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+"VR" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/plate/ceramic{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/plate/ceramic{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/item/plate/ceramic{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/obj/item/plate/ceramic{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/plate/ceramic{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/centcom/central_command_areas/admin)
+"Wp" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/food/fishmeat{
+	pixel_x = -4;
+	pixel_y = -1
+	},
+/obj/item/food/meat/bacon{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/item/food/meat/crab{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/food/meat/cutlet{
+	pixel_x = 4;
+	pixel_y = 8
+	},
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"Ww" = (
+/obj/structure/sign/poster/abductor/ayylian/directional/north,
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/stone,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"WR" = (
+/obj/machinery/door/poddoor/ert,
+/turf/open/floor/iron/smooth_large,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"XJ" = (
+/obj/machinery/computer/security/telescreen/minisat/directional/east,
+/turf/open/floor/vault/rock,
+/area/centcom/central_command_areas/fore)
+"Ye" = (
+/turf/open/floor/stone,
+/area/centcom/central_command_areas)
+"Yt" = (
+/obj/effect/turf_decal/board_number/four{
+	pixel_x = -11;
+	pixel_y = 24
+	},
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"Yv" = (
+/obj/structure/curtain/cloth,
+/obj/machinery/shower/directional/south{
+	reagent_capacity = 2000000
+	},
+/turf/open/floor/bamboo,
+/area/centcom/central_command_areas/courtroom)
+"YF" = (
+/obj/effect/turf_decal/board_number/three{
+	pixel_x = 13;
+	pixel_y = 22
+	},
+/turf/closed/wall/mineral/iron,
+/area/centcom/central_command_areas/briefing)
+"YK" = (
+/obj/structure/table/reinforced/titaniumglass,
+/obj/effect/spawner/random/food_or_drink/booze,
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"Zc" = (
+/turf/open/floor/iron/colony/white/bolts,
+/area/centcom/central_command_areas/admin)
+"Zo" = (
+/obj/item/kirbyplants/organic/plant2{
+	pixel_x = 4;
+	pixel_y = 0
+	},
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"Zx" = (
+/turf/open/floor/carpet/purple,
+/area/centcom/central_command_areas/control)
+"ZO" = (
+/obj/machinery/light/floor{
+	invisibility = 60;
+	brightness = 7
+	},
+/turf/open/floor/iron/shuttle/exploration/flat,
+/area/centcom/central_command_areas/ferry)
+"ZV" = (
+/turf/closed/wall/mineral/silver,
+/area/centcom/central_command_areas/supplypod/pod_storage)
+"ZW" = (
+/obj/machinery/door/window/left/directional/east,
+/turf/open/floor/iron/colony/white,
+/area/centcom/central_command_areas/admin)
+
+(1,1,1) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+Rj
+Rj
+"}
+(2,1,1) = {"
+vj
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+fp
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Rj
+"}
+(3,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+mi
+mi
+Nv
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(4,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+Iy
+Iy
+Nv
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(5,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+Iy
+Ce
+Nv
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(6,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+Iy
+mi
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(7,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+QX
+mi
+vR
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(8,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+Ye
+Ye
+Ye
+Ye
+Ye
+Iy
+mi
+Go
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(9,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+qI
+qI
+qI
+qI
+Iy
+Iy
+kd
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(10,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+Iy
+mi
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(11,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+Iy
+Jk
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(12,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+oc
+mi
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(13,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+Iy
+am
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(14,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+Iy
+mi
+IO
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(15,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+qI
+qI
+qI
+qI
+Iy
+Iy
+kd
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(16,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+eu
+eu
+eu
+eu
+RS
+RS
+mi
+vR
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(17,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+mi
+Go
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(18,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+aF
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(19,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+lA
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(20,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+WR
+mi
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(21,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+lA
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(22,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+jQ
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(23,1,1) = {"
+vj
+fp
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+qI
+yN
+yN
+yN
+yN
+mw
+RS
+kd
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(24,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+qI
+qI
+eu
+eu
+eu
+eu
+RS
+RS
+mi
+IO
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(25,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+rd
+dL
+wi
+VK
+wi
+GV
+mM
+qI
+qI
+ew
+ew
+ew
+ew
+ZV
+ZV
+mi
+vR
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(26,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+rd
+QO
+Zc
+Ds
+Zc
+Zc
+ra
+qI
+qI
+yN
+yN
+yN
+yN
+mw
+ZV
+Ww
+Go
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(27,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+rd
+hF
+Zc
+Wp
+Zc
+Zc
+JQ
+qI
+qI
+yN
+yN
+yN
+yN
+mw
+IL
+mi
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(28,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+rd
+oN
+Zc
+NX
+Zc
+Zc
+nD
+qI
+qI
+yN
+yN
+yN
+yN
+mw
+ZV
+lA
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(29,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+it
+it
+it
+it
+it
+it
+rd
+VK
+wi
+VK
+ge
+wi
+VK
+ho
+yN
+yN
+yN
+yN
+yN
+mw
+ZV
+Sw
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(30,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+It
+Ap
+it
+lK
+Qf
+Qf
+rd
+hC
+VR
+yu
+rd
+ZW
+rd
+qI
+ho
+qI
+qI
+qI
+qI
+Iy
+ZV
+mi
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(31,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+js
+Ai
+Vh
+dp
+dp
+dp
+Uw
+jY
+jY
+jY
+jY
+jY
+jY
+DZ
+KJ
+IW
+pd
+Oi
+Ut
+vr
+rd
+IO
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(32,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+it
+it
+it
+dp
+AH
+cG
+rd
+nQ
+gi
+gi
+AD
+om
+jY
+DG
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KR
+mi
+mi
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(33,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+Lr
+oV
+it
+dp
+AH
+ob
+rd
+yg
+yg
+yg
+yg
+jY
+jY
+DG
+DG
+DG
+DG
+DG
+DG
+DG
+rd
+ok
+kd
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(34,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+js
+Rt
+iJ
+dp
+AH
+ob
+rd
+yg
+yg
+yg
+yg
+So
+jY
+BT
+wk
+sH
+Sc
+FG
+kD
+BT
+rd
+mi
+vR
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(35,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+it
+it
+it
+dp
+AH
+cG
+rd
+BC
+kB
+kB
+vb
+jY
+jY
+jY
+yJ
+jY
+jY
+jY
+jY
+jY
+aU
+mi
+Go
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(36,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+js
+hI
+Vh
+dp
+dp
+dp
+Uw
+jY
+jY
+jY
+fZ
+jY
+Bv
+jY
+jY
+Cr
+jY
+wA
+Cr
+jY
+rd
+jm
+mi
+NU
+NU
+KW
+NU
+NU
+Nv
+vj
+"}
+(37,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+rs
+Ga
+it
+EY
+Jh
+Jh
+rd
+xf
+aB
+jY
+rd
+wf
+di
+aQ
+wf
+yL
+aQ
+wf
+CG
+aQ
+rd
+Iy
+Nv
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(38,1,1) = {"
+vj
+oa
+IH
+IH
+IH
+IH
+IH
+IH
+IH
+it
+it
+it
+it
+it
+it
+it
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+rd
+mi
+Nv
+NU
+NU
+oW
+NU
+NU
+Nv
+vj
+"}
+(39,1,1) = {"
+vj
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+oa
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+tz
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Nv
+Rj
+"}
+(40,1,1) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+Rj
+Rj
+"}
+
+(1,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(2,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(3,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(4,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(5,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(6,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(7,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(8,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(9,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(10,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(11,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(12,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(13,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(14,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(15,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(16,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(17,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(18,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(19,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(20,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+CU
+CU
+CU
+CU
+Nc
+Nc
+Nc
+Nc
+Eb
+Eb
+Eb
+Eb
+aI
+aI
+aI
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(21,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+CU
+ws
+AN
+CU
+ft
+xc
+ft
+Nc
+tV
+Eb
+jD
+Eb
+uw
+px
+Su
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(22,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+CU
+Bn
+ZO
+CU
+kO
+XJ
+kO
+Nc
+zw
+zw
+Hr
+Eb
+gA
+px
+CC
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(23,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+CU
+bM
+lr
+AN
+kO
+kO
+kO
+Nc
+PL
+zw
+lV
+Eb
+aI
+dT
+aI
+aI
+aI
+aI
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(24,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+ox
+ox
+ox
+ox
+CU
+tw
+kO
+kO
+Nc
+Pp
+zw
+JO
+Eb
+DV
+px
+tu
+aI
+qg
+zA
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(25,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+yU
+CO
+iX
+ox
+CU
+CL
+kO
+vg
+Nc
+vC
+zw
+Cy
+Eb
+OK
+px
+cF
+Eq
+FD
+EG
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(26,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+iX
+ru
+iX
+ox
+CU
+Nc
+Uh
+Nc
+Nc
+Eb
+Uq
+Eb
+Eb
+aI
+dT
+aI
+aI
+aI
+aI
+aI
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(27,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+uv
+uv
+uv
+jg
+TC
+nJ
+nJ
+nJ
+Al
+nJ
+nJ
+nJ
+nJ
+nJ
+Al
+TC
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(28,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+xs
+Kk
+Dr
+Kk
+Du
+Al
+nJ
+nJ
+nJ
+nJ
+nJ
+Al
+nJ
+nJ
+nJ
+TC
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(29,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+ox
+ox
+ox
+ox
+ox
+TC
+TC
+TC
+TC
+TC
+TC
+TC
+TC
+TC
+fn
+BS
+fn
+fn
+Tt
+Tt
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(30,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+su
+su
+su
+rg
+kQ
+Zx
+Sr
+nw
+LZ
+sG
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(31,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+iI
+OG
+pt
+iI
+ml
+pt
+rg
+su
+Mu
+su
+rg
+YK
+Zx
+Zo
+fn
+Bo
+LZ
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(32,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+Bs
+fG
+jn
+Bs
+Tf
+jn
+rg
+su
+su
+su
+rg
+UD
+Zx
+ol
+fn
+Yv
+sG
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(33,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+vU
+OF
+mJ
+EB
+si
+GZ
+rg
+su
+su
+su
+rg
+JC
+Bh
+kR
+fn
+Gb
+LZ
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(34,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+rg
+xY
+jw
+rg
+Yt
+UA
+fn
+fn
+fn
+Tt
+Tt
+Tt
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(35,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+rg
+TJ
+TJ
+TJ
+TJ
+TJ
+TJ
+su
+Mu
+su
+su
+su
+Mu
+pS
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(36,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+Mu
+su
+CF
+CF
+rg
+rg
+rg
+rg
+wZ
+xY
+rg
+xY
+YF
+rg
+rg
+rg
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(37,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+su
+su
+Tv
+Tv
+Tv
+rg
+su
+su
+su
+su
+rg
+su
+su
+su
+su
+rg
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(38,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+su
+Mu
+su
+su
+rg
+su
+Mu
+su
+su
+rg
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(39,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+rg
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
+(40,1,2) = {"
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+vj
+"}
