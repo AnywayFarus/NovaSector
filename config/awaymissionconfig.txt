@@ -31,4 +31,8 @@ _maps/RandomZLevels/museum.dmm
 # Nova Away Missions
 #_maps/RandomZLevels/mothership_astrum.dmm
 _maps/RandomZLevels/heretic.dmm
+<<<<<<< HEAD
+>>>>>>> upstream/master
+=======
+_maps/RandomZLevels/maintsroom.dmm
 >>>>>>> upstream/master

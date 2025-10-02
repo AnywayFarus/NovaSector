@@ -13,6 +13,7 @@
 		"ci-xray-moth",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = TECHWEB_TIER_2_POINTS)
+	announce_channels = list(RADIO_CHANNEL_SCIENCE, RADIO_CHANNEL_MEDICAL)
 
 /datum/techweb_node/borg_shapeshifter
 	id = TECHWEB_NODE_BORG_SHAPESHIFTER
@@ -51,6 +52,7 @@
 		"synth_liver",
 		"synth_lungs",
 		"synth_stomach",
+		"synth_charger",
 		"synth_ears",
 		"synth_heart",
 	)
@@ -61,12 +63,14 @@
 /datum/techweb_node/atmos/New()
 	design_ids += list(
 		"vox_gas_filter",
+		"vaporizer",
 	)
 	return ..()
 
 /datum/techweb_node/construction/New()
 	design_ids += list(
 		"polarizer",
+		"airbag",
 	)
 	return ..()
 
@@ -85,7 +89,7 @@
 
 /datum/techweb_node/medbay_equip/New()
 	design_ids += list(
-		"hospital_gown",
+		"surgical_gown",
 		"anesthetic_machine",
 		"smartdartgun",
 		"cone_of_shame",
@@ -122,10 +126,11 @@
 
 /datum/techweb_node/consoles/New()
 	design_ids += list(
-		"time_clock_frame",
 		"nif_service_tools",
+		"idcard_guest",
 	)
 	return ..()
+
 
 /datum/techweb_node/hud/New()
 	design_ids += list(
@@ -162,22 +167,10 @@
 	)
 	return ..()
 
-/datum/techweb_node/gene_engineering/New()
+/datum/techweb_node/medbay_equip_adv/New()
 	design_ids += list(
 		"self_actualization_device",
 	)
-	return ..()
-
-/datum/techweb_node/xenobiology/New()
-	// QOL - Makes cytology experiment a discount rather than required experiment
-	required_experiments -= list(/datum/experiment/scanning/random/cytology)
-	discount_experiments += list(/datum/experiment/scanning/random/cytology)
-	return ..()
-
-/datum/techweb_node/selection/New()
-	// QOL - Makes wild harvest experiment a discount rather than required experiment
-	required_experiments -= list(/datum/experiment/scanning/random/plants/wild)
-	discount_experiments += list(/datum/experiment/scanning/random/plants/wild)
 	return ..()
 
 /datum/techweb_node/cyber/cyber_organs/New()
@@ -217,13 +210,13 @@
 
 /datum/techweb_node/basic_arms/New()
 	design_ids += list(
-		"ammoworkbench_disk_lethal",
+		"ammo_workbench",
 	)
 	return ..()
 
 /datum/techweb_node/riot_supression/New()
 	design_ids += list(
-		"ammo_workbench",
+		"ammobench_gimmick",
 	)
 	return ..()
 
@@ -233,16 +226,11 @@
 	)
 	return ..()
 
-/datum/techweb_node/mod_security/New()
-	design_ids += list(
-		"mod_retract_plates",
-	)
-	return ..()
-
 /datum/techweb_node/exotic_ammo/New()
 	design_ids += list(
 		"c38_haywire",
 		"c38_haywire_mag",
+		"ammobench_niche",
 	)
 	return ..()
 
@@ -279,6 +267,17 @@
 
 /datum/techweb_node/chem_synthesis/New()
 	design_ids += list(
+		"hypokit",
+		"hypomkii",
+		"large_hypovial",
+		"medipen_atropine",
+		"medipen_epinephrine",
+		"medipen_oxandrolone",
+		"medipen_penacid",
+		"medipen_salacid",
+		"medipen_salbutamol",
+		"medipen_universal",
+		"medipen_universal_lowpressure",
 		"plumbing_eng",
 	)
 	return ..()
@@ -311,6 +310,7 @@
 		"borg_upgrade_clamp",
 		"borg_upgrade_brush",
 		"borg_upgrade_shrink",
+		"borg_upgrade_cargo_apparatus"
 	)
 	return ..()
 
@@ -324,5 +324,20 @@
 /datum/techweb_node/borg_medical/New()
 	design_ids += list(
 		"borg_upgrade_surgicaltools",
+	)
+	return ..()
+
+/////////////////////////Applied Bluespace /////////////////////////
+
+/datum/techweb_node/applied_bluespace/New()
+	design_ids += list(
+		"plantbag_holding",
+	)
+	return ..()
+
+// modsuit security stuff
+/datum/techweb_node/mod_security/New()
+	design_ids += list(
+		"mod_plating_security",
 	)
 	return ..()

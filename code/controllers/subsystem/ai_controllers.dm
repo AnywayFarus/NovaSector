@@ -4,7 +4,7 @@ SUBSYSTEM_DEF(ai_controllers)
 	flags = SS_POST_FIRE_TIMING|SS_BACKGROUND
 	priority = FIRE_PRIORITY_NPC
 	dependencies = list(
-		/datum/controller/subsystem/movement/ai_movement
+		/datum/controller/subsystem/movement/ai_movement,
 	)
 	wait = 0.5 SECONDS //Plan every half second if required, not great not terrible.
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
@@ -21,7 +21,7 @@ SUBSYSTEM_DEF(ai_controllers)
 
 /datum/controller/subsystem/ai_controllers/stat_entry(msg)
 	var/list/planning_list = GLOB.ai_controllers_by_status[planning_status]
-	msg = "Planning AIs:[length(planning_list)]/[round(our_cost,1)]%"
+	msg = "\n  Planning AIs:[length(planning_list)]/[round(our_cost,1)]%"
 	return ..()
 
 /datum/controller/subsystem/ai_controllers/fire(resumed)
