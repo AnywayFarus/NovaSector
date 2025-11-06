@@ -427,12 +427,9 @@ ROUNDSTART_RACES ethereal
 #ROUNDSTART_RACES zombie
 #ROUNDSTART_RACES slime
 #ROUNDSTART_RACES pod
-<<<<<<< HEAD
 #ROUNDSTART_RACES military_synth
 #ROUNDSTART_RACES agent
-=======
 #ROUNDSTART_RACES ghost
->>>>>>> upstream/master
 
 ## SKYRAT RACES DOWN THERE
 ROUNDSTART_RACES mammal
@@ -450,23 +447,17 @@ ROUNDSTART_RACES vox
 ROUNDSTART_RACES vox_primalis
 ROUNDSTART_RACES aquatic
 ROUNDSTART_RACES insect
-<<<<<<< HEAD
 ROUNDSTART_RACES synth
-=======
 ROUNDSTART_RACES insectoid
->>>>>>> upstream/master
 ROUNDSTART_RACES ghoul
-<<<<<<< HEAD
-=======
 ROUNDSTART_RACES teshari
 ROUNDSTART_RACES hemophage
 ROUNDSTART_RACES vox_primalis
 ROUNDSTART_RACES abductorweak
-<<<<<<< HEAD
->>>>>>> upstream/master
-=======
+
+ROUNDSTART_RACES golemweak
+ROUNDSTART_RACES dullahan
 ROUNDSTART_RACES kobold
->>>>>>> upstream/master
 
 ##-------------------------------------------------------------------------------------------
 
