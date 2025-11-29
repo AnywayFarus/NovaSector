@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/scp43687/srv/TGS/tgs_instances/FluffySTG/Configuration/CodeModifications/code/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
